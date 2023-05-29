@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Perbedaan Vektor</title>
+		<link rel="icon" type="image/ico" href="./../../logo-atas.ico" />
+    	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   		<link rel="stylesheet" href="../css/materi_style.css">
+		<link rel="stylesheet" href="../css/latihan.css">
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+		<script>
+			MathJax = {
+			  tex: {
+				inlineMath: [['$', '$'], ['\\(', '\\)']]
+			  }
+			};
+			</script>
+			<script id="MathJax-script" async
+			  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+		</script>
+		<script src="../js/latihan1.js"></script>
+	</head>
+	<body>
+
+		<!--wrapper start-->
+		<div class="wrapper">
+			<!--header menu start-->
+			<div class="header">
+				<div class="header-menu">
+					<div class="title">VEKTOR</div>
+					<div class="sidebar-btn">
+						<i class="fas fa-bars"></i>
+					</div>
+					<ul>
+						<li><a href="../home.html"><i class='bx bx-home'></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<!--header menu end-->
+			<!--sidebar start-->
+			<div class="sidebar">
+				<div class="sidebar-menu">
+					<center class="profile">
+						<img src="../images/logo vektor.png" alt="">
+					</center>
+					<li class="item" id="profile">
+						<a href="#profile" class="menu-btn">
+							<i class='bx bxs-book-bookmark'></i><span style="font-weight: 700;">Vektor<i class="fas fa-chevron-down drop-down"></i></span>
+						</a>
+						<div class="sub-menu">
+							<a href="../Materi1/sub1.1.html"><i class='bx bx-bookmark' ></i><span>Perbedaan Skalar & Vektor</span></a>
+							<a href="../Materi1/sub2.html"><i class='bx bx-bookmark' ></i><span>Menulis & Menggambar Vektor</span></a>
+							<a href="../Materi1/sub3.html"><i class='bx bx-bookmark' ></i></i><span>Menyatakan suatu vektor</span></a>
+							<a href="../KUIS/kuis1.html"><i class='bx bxs-edit' ></i><span>Kuis 1</span></a>
+						</div>
+					</li>
+					<li class="item" id="messages">
+						<a href="#messages" class="menu-btn">
+							<i class='bx bx-math' ></i><span style="font-weight: 700;">Penjumlahan Vektor<i class='bx bx-lock'></i><i class="fas fa-chevron-down drop-down"></i></span>
+						</a>
+						<div class="sub-menu">
+							<a href="../Materi2/sub2.1.html"><i class='bx bx-bookmark' ></i><span>Metode Poligon <i class='bx bx-lock'></i></span></a>
+							<a href="../Materi2/sub2.2.html"><i class='bx bx-bookmark' ></i><span>Metode Jajar Genjang <i class='bx bx-lock'></i></span></a>
+							<a href="../Materi2/sub2.3.html"><i class='bx bx-bookmark' ></i><span>Metode grafis <i class='bx bx-lock'></i></span></a>
+							<a href="../Materi2/sub2.4.html"><i class='bx bx-bookmark' ></i><span>Metode Analitis <i class='bx bx-lock'></i></span></a>
+							<a href="../KUIS/kuis2.html"><i class='bx bxs-edit' ></i><span>Kuis 2</span></a>
+						</div>
+					</li>
+					<li class="item">
+						<a href="../KUIS/evaluasi.html" class="menu-btn">
+							<i class='bx bx-folder-open' ></i><span style="font-weight: 700;">Evaluasi</span>
+						</a>
+					</li>
+				</div>
+			</div>
+			<!--sidebar end-->
+			<!--main container start-->
+			<div class="main-container">
+				<!--JUDUL MATERI-->
+				<div class="card-header">A) Perbedaan Skalar dan Vektor</div>
+        		<div class="card-header-2">Tujuan Pembelajaran</div>
+        		<div class="content-card">
+           		<ul>
+                	<li>Siswa dapat menjelaskan perbedaan besaran vektor dan besaran skalar.</li>
+            	</ul>
+        		</div>
+			</br>
+				<div class="content-card">
+					<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+					Supaya memahami dengan baik perbedaan antara besaran skalar dan vektor, 
+                    simak video ilustrasi tentang jarak dan perpindahan berikut.
+					</p>
+					<br>
+					<div style="text-align:center" > 
+						<button onclick="playPause()">Play/Pause</button> 
+						<button onclick="makeBig()">Big</button>
+						<button onclick="makeSmall()">Small</button>
+						<button onclick="makeNormal()">Normal</button>
+						<br><br>
+						<video id="video" width="420">
+						  <source src="../video/video2.mp4" type="video/mp4">
+						</video>
+					  </div>
+					  <br>
+					<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+						Setelah menyaksikan video animasi di atas, sudah terbayangkan apa perbedaan 
+						besaran skalar dan besaran vektor?. Tentu, terbayangkan dengan jelas
+						perbedaan antara besaran skalar (diwakili oleh jarak) dan besaran vektor (diwakili oleh perpindahan). 
+                        Jarak didefinisikan sebagai panjang lintasan yang sesungguhnya ditempuh oleh benda 
+                        dalam selang waktu tertentu. 
+					</p>
+					<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+						Jarak cukup dinyatakan oleh suatu angka yang menyatakan besarnya 
+						sehingga termasuk besaran skalar. Besaran skalar adalah besaran 
+						yang dinyatakan oleh besarnya saja tanpa perlu menyatakan arahnya, 
+						contoh besaran skalar di antaranya panjang, massa, waktu, volume, 
+						kelajuan, massa jenis, daya, energi, dan suhu. Adapun perpindahan 
+						didefinisikan sebagai perubahan posisi suatu benda dalam selang waktu tertentu. 
+						Perpindahan selain dinyatakan oleh besarnya, juga harus dinyatakan arahnya 
+						sehingga termasuk besaran vektor, contoh besaran vektor di antaranya perpindahan, 
+						gaya, kecepatan, percepatan, dan momentum. Dengan demikian besaran vektor 
+						adalah besaran yang harus dinyayakan oleh besar beserta arahnya.
+					</p>
+					<!---------------KONTEN LATIHAN--------------->
+					<div class="kotak">
+						<div class="box">
+						<input checked="checked" id="box1" name="box" type="radio"> 
+						<label for="box1">Latihan</label>
+						<div class="content">
+						<!---------------ISI LATIHAN---------------->
+						<label for="" style="text-align:justify; line-height: 1.5em; padding: 32px;">
+						Perhatikan besaran dibawah ini untuk 
+						menjawab soal no.1 dan no.2!
+						<br>
+						<ol type="i" >
+							<li>Massa</li>
+							<li>Kecepatan</li>
+							<li>Suhu</li>
+							<li>Momentum</li>
+						</ol>
+						1. Yang merupakan besaran skalar ditunjukkan oleh nomor . . .
+						<br>
+						<b style="color: rgb(82 99 99);;">*klik pada salah satu pilihan jawaban</b>
+						<br>
+						$\hspace{0.3cm}$<input type="checkbox" name="numb1" id="numb1a"> (i), (ii), dan (iv)
+						<br>
+						$\hspace{0.3cm}$<input type="checkbox" name="numb1" id="numb1b"> (i), dan (iv)
+						<br>
+						$\hspace{0.3cm}$<input type="checkbox" name="numb1" id="numb1c"> (ii), dan (iii)
+						<br>
+						$\hspace{0.3cm}$<input type="checkbox" name="numb1" id="numb1d"> (ii), dan (iv)
+						<div id="responseNumb1" style="padding: 4px;"></div>
+						2. Yang merupakan besaran vektor ditunjukkan oleh nomor . . .
+						<br>
+						<b style="color: rgb(82 99 99);;">*klik pada salah satu pilihan jawaban</b>
+						<br>
+						$\hspace{0.3cm}$<input type="checkbox" name="numb2" id="numb2a"> (i), (ii), dan (iv)
+						<br>
+						$\hspace{0.3cm}$<input type="checkbox" name="numb2" id="numb2b"> (i), (iii), dan (iv)
+						<br>
+						$\hspace{0.3cm}$<input type="checkbox" name="numb2" id="numb2c"> (i), dan (iv)
+						<br>
+						$\hspace{0.3cm}$<input type="checkbox" name="numb2" id="numb2d"> (ii), dan (iv)
+						<div id="responseNumb2" style="padding: 4px;"></div>
+						3. Besaran yang dinyatakan oleh besarnya tanpa perlu 
+						menyatakan arahnya disebut besaran . . .
+						<br>
+						<b style="color: rgb(82 99 99);;">*isi kotak yang kosong dengan 
+							jawaban kalian</b>
+						<br>
+						jawab: <input type="text" name="" id="numb3">
+						<div id="responseNumb3"></div>
+						4. Besaran yang dinyatakan oleh besar dan arahnya disebut besaran . . .
+						<br>
+						<b style="color: rgb(82 99 99);;">*isi kotak yang kosong dengan 
+							jawaban kalian</b>
+						<br>
+						jawab: <input type="text" name="" id="numb4">
+						<div id="responseNumb4"></div>
+						<br>
+						<br>
+						<br>
+						<button onclick="kirim()">Cek Jawaban</button>
+						<script>
+							function kirim(){
+								//soal no.1
+								const numb1a = document.querySelector('#numb1a')
+								const numb1b = document.querySelector('#numb1b')
+								const numb1c = document.querySelector('#numb1c')
+								const numb1d = document.querySelector('#numb1d')
+								const responseNumb1 = document.querySelector('#responseNumb1')
+
+								let answerNumb1
+								if(numb1c.checked){
+									answerNumb1 = 'Jawaban kamu benar'
+									responseNumb1.style = 'color: green;'
+								}
+								else{
+									answerNumb1 = 'Jawaban kamu salah'
+									responseNumb1.style = 'color: red;'
+								}
+								responseNumb1.innerHTML = answerNumb1
+								//soal no.2
+								const numb2a = document.querySelector('#numb2a')
+								const numb2b = document.querySelector('#numb2b')
+								const numb2c = document.querySelector('#numb2c')
+								const numb2d = document.querySelector('#numb2d')
+								const responseNumb2 = document.querySelector('#responseNumb2')
+
+								let answerNumb2
+								if(numb2d.checked){
+									answerNumb2 = 'Jawaban kamu benar'
+									responseNumb2.style = 'color: green;'
+								}
+								else{
+									answerNumb2 = 'jawaban kamu salah'
+									responseNumb2.style = 'color: red;'
+								}
+								responseNumb2.innerHTML = answerNumb2
+								//soal no.3
+								const numb3 = document.querySelector('#numb3')
+								const responseNumb3 = document.querySelector('#responseNumb3')
+								if (numb3.value =='skalar'){
+									responseNumb3.innerHTML = 'jawaban kamu benar'
+									responseNumb3.style = 'color: green;'
+								}
+								else if (numb3.value ==''){
+									responseNumb3.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+									responseNumb3.style = 'color: white;'
+								}
+								else{
+									responseNumb3.innerHTML = 'jawaban kamu salah'
+									responseNumb3.style = 'color: red;'
+								}
+								//soal no.4
+								const numb4 = document.querySelector('#numb4')
+								const responseNumb4 = document.querySelector('#responseNumb4')
+								if (numb4.value =='vektor'){
+									responseNumb4.innerHTML = 'jawaban kamu benar'
+									responseNumb4.style = 'color: green;'
+								}
+								else if (numb4.value ==''){
+									responseNumb4.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+									responseNumb4.style = 'color: white;'
+								}
+								else{
+									responseNumb4.innerHTML = 'jawaban kamu salah'
+									responseNumb4.style = 'color: red;'
+								}
+
+							}
+						</script>
+						</label>
+						</div>
+					</div>
+					</div>
+			</div>
+			<br>
+			<!-- CODINGAN selanjutnya-->
+            <div class="nav_bawah">
+                <center>
+                    <a href="../materi.html" class="tombol" style="color: white;"><i
+                            class="fas fa-angle-double-left"></i>
+                        Sebelumnya</a>
+
+                    <a href="../Materi1/sub2.html" class="tombol" style="color: white;">Selanjutnya
+                        <i class="fas fa-angle-double-right"></i></a>
+                </center>
+            </div>
+			<!--main container end-->
+		<!--wrapper end-->
+		<!--js video-->
+		<script> 
+			var myVideo = document.getElementById("video"); 
+			
+			function playPause() { 
+			  if (myVideo.paused) 
+				myVideo.play(); 
+			  else 
+				myVideo.pause(); 
+			} 
+			
+			function makeBig() { 
+				myVideo.width = 560; 
+			} 
+			
+			function makeSmall() { 
+				myVideo.width = 320; 
+			} 
+			
+			function makeNormal() { 
+				myVideo.width = 420; 
+			} 
+			</script> 
+		<!--js video end-->
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$(".sidebar-btn").click(function(){
+				$(".wrapper").toggleClass("collapse");
+			});
+		});
+		</script>
+
+	</body>
+</html>

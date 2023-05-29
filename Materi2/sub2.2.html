@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Melukis Penjumlahan Vektor</title>
+    	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   		<link rel="stylesheet" href="../css/materi_style.css">
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+		<script>
+			MathJax = {
+			  tex: {
+				inlineMath: [['$', '$'], ['\\(', '\\)']]
+			  }
+			};
+			</script>
+			<script id="MathJax-script" async
+			  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+		</script>
+	</head>
+	<body>
+
+		<!--wrapper start-->
+		<div class="wrapper">
+			<!--header menu start-->
+			<div class="header">
+				<div class="header-menu">
+					<div class="title">VEKTOR</div>
+					<div class="sidebar-btn">
+						<i class="fas fa-bars"></i>
+					</div>
+					<ul>
+						<li><a href="../home.html"><i class='bx bx-home'></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<!--header menu end-->
+			<!--sidebar start-->
+			<div class="sidebar">
+				<div class="sidebar-menu">
+					<center class="profile">
+						<img src="../images/logo vektor.png" alt="">
+					</center>
+					<li class="item" id="profile">
+						<a href="#profile" class="menu-btn">
+							<i class='bx bxs-book-bookmark'></i><span style="font-weight: 700;">Vektor<i class="fas fa-chevron-down drop-down"></i></span>
+						</a>
+						<div class="sub-menu">
+							<a href="../Materi1/sub1.1.html"><i class='bx bx-bookmark' ></i><span>Perbedaan Skalar & Vektor</span></a>
+							<a href="../Materi1/sub2.html"><i class='bx bx-bookmark' ></i><span>Menulis & Menggambar Vektor</span></a>
+							<a href="../Materi1/sub3.html"><i class='bx bx-bookmark' ></i></i><span>Menyatakan suatu vektor</span></a>
+							<a href="../KUIS/kuis1.html"><i class='bx bxs-edit' ></i><span>Kuis 1</span></a>
+						</div>
+					</li>
+					<li class="item" id="messages">
+						<a href="#messages" class="menu-btn">
+							<i class='bx bx-math' ></i><span style="font-weight: 700;">Penjumlahan Vektor<i class="fas fa-chevron-down drop-down"></i></span>
+						</a>
+						<div class="sub-menu">
+							<a href="../Materi2/sub2.1.html"><i class='bx bx-bookmark' ></i><span>Metode Poligon</span></a>
+							<a href="../Materi2/sub2.2.html"><i class='bx bx-bookmark' ></i><span>Metode Jajar Genjang</span></a>
+							<a href="../Materi2/sub2.3.html"><i class='bx bx-bookmark' ></i><span>Metode grafis</span></a>
+							<a href="../Materi2/sub2.4.html"><i class='bx bx-bookmark' ></i><span>Metode Analitis</span></a>
+							<a href="../KUIS/kuis2.html"><i class='bx bxs-edit' ></i><span>Kuis 2</span></a>
+						</div>
+					</li>
+					<li class="item">
+						<a href="../KUIS/evaluasi.html" class="menu-btn">
+							<i class='bx bx-folder-open' ></i><span style="font-weight: 700;">Evaluasi</span>
+						</a>
+					</li>
+				</div>
+			</div>
+			<!--sidebar end-->
+			<!--main container start-->
+			<div class="main-container">
+				<!--JUDUL MATERI-->
+				<div class="card-header">B)	Penjumlahan Vektor dengan Metode Jajar Genjang</div>
+        		<div class="card-header-2">Tujuan Pembelajaran</div>
+        		<div class="content-card">
+           		<ul style="text-align:justify; line-height: 1.5em;">
+                	<li>Siswa dapat melukis penjumlahan 
+					vektor dengan metode Jajar Genjang</li>
+            	</ul>
+        		</div>
+			</br>
+				<div class="content-card">
+					<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+						Metode jajaran genjang adalah metode penjumlahan dua vektor dengan menggambarkan 
+						garis-garis sejajar vektornya melalui ujung vektor yang lain sehingga terbentuk jajaran genjang. 
+						Resultan vektor adalah diagonal jajar genjang dengan pangkalnya berhimpitan dengan vektor lain. 
+						Sederhananya, metode jajar genjang adalah metode yang mengaitkan pangkal dengan pangkal.
+						Aturan melukis penjumlahan vektor dengan metode jajargenjang adalah sebagai berikut.
+					<ol type="1"  style="text-indent: 10px; padding: 14px;  text-align:justify; line-height: 1.5em;" >
+							<li>Lukis vektor pertama dan vektor kedua dengan titik pangkal berimpit.</li>
+							<li>Lukis sebuah jajargenjang dengan kedua vektor itu sebagai sisi-sisinya</li>
+							<li>Vektor resultan adalah diagonal jajargenjang yang titik pangkalnya sama 
+								dengan titik pangkal kedua vektor (lihat <b>Gambar 8</b>).</li>
+						</ol>
+					</p>
+						<!--Konten Foto-->
+						<div class="foto2">
+							<div class="responsive5" >
+								<div class="gallery2" >
+								  <a target="_blank" href="../images/1.8.png">
+									<img src="../images/1.8.png">
+								  </a>
+								  <div class="desc"><b>Gambar 8</b>Melukis Vektor resultan dari dua vektor dengan metode jajargenjang. 
+									(a) Dua vektor gaya dengan arah yang berbeda. (b) Melukis vektor resultan gaya R = $F_1 + F_2$.
+									</div>
+								</div>
+							</div>
+								<div class="clearfix"></div>
+						</div>
+						<!--Konten Foto End-->
+					<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+						Agar memahami lebih jelas mengenai penjumlahan vektor menggunakan metode poligon,
+						 silahkan simak video dibawah ini.
+					</p>
+					<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+						Untuk mencari besar dan arah resultan dua gaya yang tidak segaris kerja, 
+						yaitu yang bekerja pada satu titik tangkap digunakan metode jajar genjang sebagai berikut:
+						<!--Konten Foto 2-->
+						<div class="foto2">
+							<div class="responsive3" >
+								<div class="gallery2" >
+								  <a target="_blank" href="../images/jajar genjang.png">
+									<img src="../images/jajar genjang.png">
+								  </a>
+								  <div class="desc"><b>Gambar 9</b>. Metode Jajar Genjang
+									</div>
+								</div>
+							</div>
+								<div class="clearfix"></div>
+						</div>
+						<!--Konten Foto End 2-->
+					</p>
+					<p style="text-align:justify; line-height: 1.5em; ">
+						Besar (panjang) R dapat dirumuskan sebagai berikut,
+					</p>
+					<center>
+						<br>
+						<p>$R=\sqrt{A_2+B_2+2AB\hspace{0.1cm}cos\hspace{0.1cm}\alpha}$</p>
+						<br>
+					</center>
+					<p style="text-align:justify; line-height: 1.5em; ">
+						Adapun arah R dapat dicari dengan rumus sebagai berikut,
+					<center>
+						<br>
+						<p>$R \hspace{0.1cm}sin\theta = A \hspace{0.1cm}sin\alpha$</p>
+					</center>
+					</p>
+					<!-- Contoh Soal -->
+						<div class="kotak">
+							<div class="box">
+							<input checked="checked" id="box1" name="box" type="radio"> 
+							<label for="box1">Contoh Soal</label>
+							<div class="content">
+							<p style="text-align:justify; line-height: 1.5em; ">Sebuah benda O ditarik 
+								oleh dua buah benda gaya A = 20 N dan B = 10 N. 
+								Kedua gaya tersebut membentuk sudut $60^0$, 
+								hitunglah besar dan arah vektor!
+							</p>
+							<img src="../images/jajar genjang.png" class="responsive_foto2">
+							<p style="text-align:justify; line-height: 1.5em; ">Penyelesaian:</p>
+						</p>
+						<p style="text-align:justify; line-height: 1.5em; ">
+							$A=20 N,\hspace{0.1cm}B=10N,\hspace{0.1cm}\alpha=60^0$
+							<br>
+							<br>
+							$R=\sqrt{A^2+B^2+2AB\hspace{0.1cm}cos\hspace{0.1cm}\alpha}$
+							<br>
+							<br>
+							$\hspace{0.4cm}=\sqrt{20^2+10^2+2(20)(10)cos\hspace{0.1cm}60^0}$
+							<br>
+							<br>
+							$\hspace{0.4cm}=10\sqrt{7}$
+							<br>
+							<br>
+						</p>
+						<p style="text-align:justify; line-height: 1.5em; ">Arah resultan dihitung 
+								terhadap B (menentukan sudut θ)</p>	
+						<p style="text-align:justify; line-height: 3.3em; ">
+							$R\hspace{0.1cm}sin\hspace{0.1cm}\theta\hspace{0.96cm}= A\hspace{0.1cm}sin\hspace{0.1cm}\alpha$
+							<br>
+							$10\sqrt{7}\hspace{0.1cm}sin\hspace{0.1cm}\theta\hspace{0.2cm}= 20\hspace{0.1cm}sin\hspace{0.1cm}\alpha$
+							<br>
+							$sin\theta \hspace{1.5cm}= \frac{20}{10\sqrt{7}}\times sin\hspace{0.1cm}60^0$
+							<br>
+							$\theta\hspace{2.12cm}=41^0$
+						</p>
+							</div>
+							<!-- Latihan -->
+							<input id="box2" name="box" type="radio"> 
+							<label for="box2">Latihan</label>
+							<div class="content">
+							<p style="text-align:justify; line-height: 1.5em; ">
+								Dua buah vektor gaya A dan B masing masing besarnya 4 N dan 5 N 
+								dan memiliki titik pangkal berimpit. Hitunglah nilai dan arah resultan vektor 
+								ini jika sudut apit antara kedua vektor tersebut adalah $60^0$
+								<br>
+								<b>Penyelesaian:</b>
+								<br>
+								Diketahui:
+								<br>
+								A = 
+								<input type="text" name="" id="jaJa1"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responseJaja1"></b>
+								N; 
+								B = 
+								<input type="text" name="" id="jaJa2"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responseJaja2"></b>
+								N; 
+								$\alpha$ = 
+								<input type="text" name="" id="jaJa3"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responseJaja3"></b>
+								$^0$
+							<p style="text-align:justify; line-height: 1.5em; ">
+								<br>
+								$R=\sqrt{A^2+B^2+2AB\hspace{0.1cm}cos\hspace{0.1cm}\alpha}$
+								<br>
+								<br>
+								$\hspace{0.4cm}=$
+								$\sqrt{}$
+								<input type="text" name="" id="jaJa4"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responseJaja4"></b>
+								$^2$
+								+
+								<input type="text" name="" id="jaJa5"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responseJaja5"></b>
+								$^2$
+								+
+								<input type="text" name="" id="jaJa6"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responseJaja6"></b>
+								(
+									<input type="text" name="" id="jaJa7"
+									style="
+									width: 55px; 
+									height: 35px; 
+									border-width: 3px;
+									border-color: rgb(36, 112, 62);
+									">
+									<b id="responseJaja7"></b>
+								)
+								(
+									<input type="text" name="" id="jaJa8"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responseJaja8"></b>
+								)
+								$cos\hspace{0.1cm}$
+									<input type="text" name="" id="jaJa10"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responseJaja10"></b>
+								$^0$
+								<br>
+								<br>
+								$\hspace{0.4cm}=\sqrt{}$
+									<input type="text" name="" id="jaJa11"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responseJaja11"></b>
+							</p>
+							<p style="text-align:justify; line-height: 3.3em; ">
+								Arah resultan terhadap A ditentukan dengan persamaan berikut:
+								<br>
+								$R\hspace{0.1cm}sin\hspace{0.1cm}\theta\hspace{1cm}= B\hspace{0.1cm}sin\hspace{0.1cm}\alpha$
+								<br>
+								$\sqrt{}$
+								<input type="text" name="" id="jaJa12"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responseJaja12"></b>
+								$\hspace{0.1cm}sin\hspace{0.1cm}\theta\hspace{0.2cm}= $
+								<input type="text" name="" id="jaJa13"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responseJaja13"></b>
+								$\hspace{0.1cm}sin\hspace{0.1cm}\alpha$
+								<br>
+								$sin\theta \hspace{1.5cm}= \frac{5}{\sqrt{61}}\times sin\hspace{0.1cm}$
+								<input type="text" name="" id="jaJa14"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responseJaja14"></b>
+								$^0$= 
+								<input type="text" name="" id="jaJa15"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responseJaja15"></b>
+								<br>
+								$\theta\hspace{2.12cm}$=
+								<input type="text" name="" id="jaJa16"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responseJaja16"></b>
+								$^0$
+								<br>
+								Jadi, nilai vektor adalah √
+								<input type="text" name="" id="jaJa17"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responseJaja17"></b> 
+								dengan arah
+								<input type="text" name="" id="jaJa18"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responseJaja18"></b>
+								$^0$ 
+								terhadap vektor A
+								<br>
+							</p>
+							<script>
+								function kirim(){
+								//soal Jajargenjang 1
+								const jaJa1 = document.querySelector('#jaJa1')
+								const responseJaja1 = document.querySelector('#responseJaja1')
+								if (jaJa1.value =='4'){
+									responseJaja1.innerHTML = '&#10003;'
+									responseJaja1.style = 'color: green;'
+								}
+								else if (jaJa1.value ==''){
+									responseJaja1.innerHTML = '!'
+									responseJaja1.style = 'color: red;'
+								}
+								else{
+									responseJaja1.innerHTML = 'X'
+									responseJaja1.style = 'color: red;'
+								}
+								//soal Jajargenjang 2
+								const jaJa2 = document.querySelector('#jaJa2')
+								const responseJaja2 = document.querySelector('#responseJaja2')
+								if (jaJa2.value =='5'){
+									responseJaja2.innerHTML = '&#10003;'
+									responseJaja2.style = 'color: green;'
+								}
+								else if (jaJa2.value ==''){
+									responseJaja2.innerHTML = '!'
+									responseJaja2.style = 'color: red;'
+								}
+								else{
+									responseJaja2.innerHTML = 'X'
+									responseJaja2.style = 'color: red;'
+								}
+								//soal Jajargenjang 3
+								const jaJa3 = document.querySelector('#jaJa3')
+								const responseJaja3 = document.querySelector('#responseJaja3')
+								if (jaJa3.value =='60'){
+									responseJaja3.innerHTML = '&#10003;'
+									responseJaja3.style = 'color: green;'
+								}
+								else if (jaJa3.value ==''){
+									responseJaja3.innerHTML = '!'
+									responseJaja3.style = 'color: red;'
+								}
+								else{
+									responseJaja3.innerHTML = 'X'
+									responseJaja3.style = 'color: red;'
+								}
+								//soal Jajargenjang 4
+								const jaJa4 = document.querySelector('#jaJa4')
+								const responseJaja4 = document.querySelector('#responseJaja4')
+								if (jaJa4.value =='4'){
+									responseJaja4.innerHTML = '&#10003;'
+									responseJaja4.style = 'color: green;'
+								}
+								else if (jaJa4.value ==''){
+									responseJaja4.innerHTML = '!'
+									responseJaja4.style = 'color: red;'
+								}
+								else{
+									responseJaja4.innerHTML = 'X'
+									responseJaja4.style = 'color: red;'
+								}
+								//soal Jajargenjang 5
+								const jaJa5 = document.querySelector('#jaJa5')
+								const responseJaja5 = document.querySelector('#responseJaja5')
+								if (jaJa5.value =='5'){
+									responseJaja5.innerHTML = '&#10003;'
+									responseJaja5.style = 'color: green;'
+								}
+								else if (jaJa5.value ==''){
+									responseJaja5.innerHTML = '!'
+									responseJaja5.style = 'color: red;'
+								}
+								else{
+									responseJaja5.innerHTML = 'X'
+									responseJaja5.style = 'color: red;'
+								}
+								//soal Jajargenjang 6
+								const jaJa6 = document.querySelector('#jaJa6')
+								const responseJaja6 = document.querySelector('#responseJaja6')
+								if (jaJa6.value =='2'){
+									responseJaja6.innerHTML = '&#10003;'
+									responseJaja6.style = 'color: green;'
+								}
+								else if (jaJa6.value ==''){
+									responseJaja6.innerHTML = '!'
+									responseJaja6.style = 'color: red;'
+								}
+								else{
+									responseJaja6.innerHTML = 'X'
+									responseJaja6.style = 'color: red;'
+								}
+								//soal Jajargenjang 7
+								const jaJa7 = document.querySelector('#jaJa7')
+								const responseJaja7 = document.querySelector('#responseJaja7')
+								if (jaJa7.value =='4'){
+									responseJaja7.innerHTML = '&#10003;'
+									responseJaja7.style = 'color: green;'
+								}
+								else if (jaJa7.value ==''){
+									responseJaja7.innerHTML = '!'
+									responseJaja7.style = 'color: red;'
+								}
+								else{
+									responseJaja7.innerHTML = 'X'
+									responseJaja7.style = 'color: red;'
+								}
+								//soal Jajargenjang 8
+								const jaJa8 = document.querySelector('#jaJa8')
+								const responseJaja8 = document.querySelector('#responseJaja8')
+								if (jaJa8.value =='5'){
+									responseJaja8.innerHTML = '&#10003;'
+									responseJaja8.style = 'color: green;'
+								}
+								else if (jaJa8.value ==''){
+									responseJaja8.innerHTML = '!'
+									responseJaja8.style = 'color: red;'
+								}
+								else{
+									responseJaja8.innerHTML = 'X'
+									responseJaja8.style = 'color: red;'
+								}
+								//soal Jajargenjang 10
+								const jaJa10 = document.querySelector('#jaJa10')
+								const responseJaja10 = document.querySelector('#responseJaja10')
+								if (jaJa10.value =='60'){
+									responseJaja10.innerHTML = '&#10003;'
+									responseJaja10.style = 'color: green;'
+								}
+								else if (jaJa10.value ==''){
+									responseJaja10.innerHTML = '!'
+									responseJaja10.style = 'color: red;'
+								}
+								else{
+									responseJaja10.innerHTML = 'X'
+									responseJaja10.style = 'color: red;'
+								}
+								//soal Jajargenjang 11
+								const jaJa11 = document.querySelector('#jaJa11')
+								const responseJaja11 = document.querySelector('#responseJaja11')
+								if (jaJa11.value =='61'){
+									responseJaja11.innerHTML = '&#10003;'
+									responseJaja11.style = 'color: green;'
+								}
+								else if (jaJa11.value ==''){
+									responseJaja11.innerHTML = '!'
+									responseJaja11.style = 'color: red;'
+								}
+								else{
+									responseJaja11.innerHTML = 'X'
+									responseJaja11.style = 'color: red;'
+								}
+								//soal Jajargenjang 12
+								const jaJa12 = document.querySelector('#jaJa12')
+								const responseJaja12 = document.querySelector('#responseJaja12')
+								if (jaJa12.value =='61'){
+									responseJaja12.innerHTML = '&#10003;'
+									responseJaja12.style = 'color: green;'
+								}
+								else if (jaJa12.value ==''){
+									responseJaja12.innerHTML = '!'
+									responseJaja12.style = 'color: red;'
+								}
+								else{
+									responseJaja12.innerHTML = 'X'
+									responseJaja12.style = 'color: red;'
+								}
+								//soal Jajargenjang 13
+								const jaJa13 = document.querySelector('#jaJa13')
+								const responseJaja13 = document.querySelector('#responseJaja13')
+								if (jaJa13.value =='5'){
+									responseJaja13.innerHTML = '&#10003;'
+									responseJaja13.style = 'color: green;'
+								}
+								else if (jaJa13.value ==''){
+									responseJaja13.innerHTML = '!'
+									responseJaja13.style = 'color: red;'
+								}
+								else{
+									responseJaja13.innerHTML = 'X'
+									responseJaja13.style = 'color: red;'
+								}
+								//soal Jajargenjang 14
+								const jaJa14 = document.querySelector('#jaJa14')
+								const responseJaja14 = document.querySelector('#responseJaja14')
+								if (jaJa14.value =='60'){
+									responseJaja14.innerHTML = '&#10003;'
+									responseJaja14.style = 'color: green;'
+								}
+								else if (jaJa14.value ==''){
+									responseJaja14.innerHTML = '!'
+									responseJaja14.style = 'color: red;'
+								}
+								else{
+									responseJaja14.innerHTML = 'X'
+									responseJaja14.style = 'color: red;'
+								}
+								//soal Jajargenjang 15
+								const jaJa15 = document.querySelector('#jaJa15')
+								const responseJaja15 = document.querySelector('#responseJaja15')
+								if (jaJa15.value =='0,5544'){
+									responseJaja15.innerHTML = '&#10003;'
+									responseJaja15.style = 'color: green;'
+								}
+								else if (jaJa15.value ==''){
+									responseJaja15.innerHTML = '!'
+									responseJaja15.style = 'color: red;'
+								}
+								else{
+									responseJaja15.innerHTML = 'X'
+									responseJaja15.style = 'color: red;'
+								}
+								//soal Jajargenjang 16
+								const jaJa16 = document.querySelector('#jaJa16')
+								const responseJaja16 = document.querySelector('#responseJaja16')
+								if (jaJa16.value =='33,7'){
+									responseJaja16.innerHTML = '&#10003;'
+									responseJaja16.style = 'color: green;'
+								}
+								else if (jaJa16.value ==''){
+									responseJaja16.innerHTML = '!'
+									responseJaja16.style = 'color: red;'
+								}
+								else{
+									responseJaja16.innerHTML = 'X'
+									responseJaja16.style = 'color: red;'
+								}
+								//soal Jajargenjang 17
+								const jaJa17 = document.querySelector('#jaJa17')
+								const responseJaja17 = document.querySelector('#responseJaja17')
+								if (jaJa17.value =='61'){
+									responseJaja17.innerHTML = '&#10003;'
+									responseJaja17.style = 'color: green;'
+								}
+								else if (jaJa17.value ==''){
+									responseJaja17.innerHTML = '!'
+									responseJaja17.style = 'color: red;'
+								}
+								else{
+									responseJaja17.innerHTML = 'X'
+									responseJaja17.style = 'color: red;'
+								}
+								//soal Jajargenjang 18
+								const jaJa18 = document.querySelector('#jaJa18')
+								const responseJaja18 = document.querySelector('#responseJaja18')
+								if (jaJa18.value =='33,7'){
+									responseJaja18.innerHTML = '&#10003;'
+									responseJaja18.style = 'color: green;'
+								}
+								else if (jaJa18.value ==''){
+									responseJaja18.innerHTML = '!'
+									responseJaja18.style = 'color: red;'
+								}
+								else{
+									responseJaja18.innerHTML = 'X'
+									responseJaja18.style = 'color: red;'
+								}
+							}
+							</script>
+							<br>
+							<br>
+							<br>
+							<button onclick="kirim()">Cek Jawaban</button>
+							</div>
+						</div>
+						  </div>
+				</div>
+			<br>
+			<!-- CODINGAN selanjutnya-->
+            <div class="nav_bawah">
+                <center>
+                    <a href="../Materi2/sub2.1.html" class="tombol" style="color: white;"><i
+                            class="fas fa-angle-double-left"></i>
+                        Sebelumnya</a>
+
+                    <a href="../Materi2/sub2.3.html" class="tombol" style="color: white;">Selanjutnya
+                        <i class="fas fa-angle-double-right"></i></a>
+                </center>
+            </div>
+			<!--main container end-->
+		<!--wrapper end-->
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$(".sidebar-btn").click(function(){
+				$(".wrapper").toggleClass("collapse");
+			});
+		});
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,146 @@
+<html>
+<head>
+
+    <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel = "stylesheet" href = "https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../guru/cssguru/footer.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nilai Siswa</title>
+
+    <!-- <link rel="stylesheet" href="../css/csshasil.css" type="text/css"> -->
+    <link rel="shortcut icon" type="icon" href="#"> 
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        
+        <style>
+            label, button{
+                margin-right: 0.5%;
+            }
+            table{
+                margin: 5px;
+            }
+            @media(max-width: 1000px) {
+            .card{
+                width: fit-content;
+            }
+            
+        }
+        </style>
+
+</head>
+
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="../imguru/logo vektor.png" height="63px" width="68px">
+            <h1>VEKTOR</h1>
+        </div>
+        <div class="navbar">
+        </div>
+    </header>
+    <!-- <br> -->
+   
+
+        <div class="card-body">
+            <div class="card-title-md">
+                    <center> 
+                            <label for="nama">Hasil : 
+                            <select id="kuis" name="kuis" class="mundur">
+                                <option value="kuis1/" selected="selected">KUIS 1</option>
+                                <option value="kuis2/">KUIS 2</option>
+
+                                <option value="evaluasi/">EVALUASI</option>
+                            </select>
+                            </label>
+                            <label for="nama">Kelas : 
+                                <select id="kelas" name="kelas" class="mundur" aria-placeholder="-PILIH SEKOLAH-">
+                                    <option value="0" selected="selected">-- PILIH KELAS --</option>
+                                    <option value="1">X IPA A</option>
+                                    <option value="2">X IPA B </option>
+                                 
+                                </select>
+                            </label>
+
+                        <button type="button" class="cari btn btn-success" onclick="mencari()"><i class="fas fa-search"></i>&nbsp;&nbsp;Cari</button>
+                        <button type="button" class="cari btn btn-success download" onclick="downloadfile()"><i class="fas fa-download"></i>&nbsp;&nbsp;Download</button>
+                    
+            </div>
+            <br>
+                        <table id="example" id='table_wrapper' class="table">
+                            <thead class="table-light">
+                                <tr>
+                                    <th class="ukr1">Nama</td>
+                                    <th class="ukr1">NIS</td>
+                                    <th class="ukr3">Kelas</td>
+                                    <th class="ukr1">Sekolah</td>
+                                    <th class="ukr3">Skor</td>
+                                    <th class="ukr2">Hari</td>
+                                    <th class="ukr2">Waktu</td>
+                                    <th class="ukr4">Hapus</td>
+                                </tr>
+                            </thead>
+                            <tbody class="disini"> </tbody>
+
+                         
+                        </table>
+
+
+                         <br>
+                        <center class="center">
+                        </center>
+                        </center>
+                            <p class=" clear"></p>
+
+
+                            <button type="button" class="btn btn-outline-warning" style="width: fit-content;margin: 10px 10px; background-color: #ffc107;color: black;" onclick="location.href='halamanguru.html'"><i class="fas fa-arrow-circle-left"></i>&nbsp;&nbsp;Kembali</button>
+                            
+        </div>
+    </div>
+    
+	<script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>	
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+
+    <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+
+
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"> </script>
+   
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
+   
+   
+    <script src="js/script.js"></script>
+    <script>        
+        $(document).ready(function () {
+            $('#example').DataTable({
+                columns: [
+                    {data: "nama"},
+                    {data: "nisn"},
+                    {data: "kelas"},
+                    {data: "sekolah"},
+                    {data: "nilai"},
+                    {data: "hari"},
+                    {data: "waktu"},
+                    {data: "tombolHapus"}
+                ]
+            });
+        });
+    </script>
+
+    
+
+</body>
+</html> 

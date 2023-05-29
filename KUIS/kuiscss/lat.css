@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    border-style: dashed;
+}
+
+article {
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(18, 117, 9);
+    border-radius: 5px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+article .count {
+    padding: 5px;
+}
+
+article #timer {
+    padding: 5px;
+    /* color: crimson; */
+    background-color: white;
+    border-radius: 2px;
+}
+
+.clear {
+    clear: both;
+}
+
+.up{
+    background-color: white;
+    padding-top: 15px;
+}
+
+.kiri {
+    background-color: white;
+    padding: 15px;
+    text-align: justify;
+    margin-top: -1px;
+    }
+
+.kanan {
+    background-color: white;
+    padding: 15px;
+    text-align: justify;
+    
+}
+
+.hilang_konten {
+    display: inline-block;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hilang1 {
+    display: none !important;
+}
+
+ul li .nihhh {
+    padding: 10px 2px;
+    height: auto;
+    background-color: rgb(131, 176, 190);
+    text-align: justify;
+
+}
+
+ul li .besarrr {
+    height: 55px;
+}
+
+.center {
+    text-align: center;
+}
+
+.disablee {
+    background-color: rgb(133, 133, 133) !important;
+    color: rgb(37, 37, 37);
+    cursor: default !important;
+}
+
+ol.pil{
+    list-style-type: lower-alpha;
+}
+
+.hilang {
+    display: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.aa {
+    display: inline-block;
+}
+.gmb{
+    width: 100%;
+}
+
+
+/* -----------------------------------------------------------------------------------------------------*/
+/* Desktop version  */
+@media (min-width : 992px) {
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .konten {
+            top: 5px;
+            position: relative;
+            background-color: #f6fdf4;
+            /* height: 622px; */
+            height: 94vh;
+            width: auto;
+            padding: 24px;
+            overflow: auto;
+            /* border: 1px solid #7f8c8d; */
+            /* border-radius: 5px; */
+    }
+
+    .inti-konten {
+        width: 100%;
+    }
+
+    .kiri {
+        float: left;
+        width: 70%;
+        background-color: white;
+        height: 90vh;
+        overflow: auto;
+        padding-left: 20px;
+        text-align: justify;
+        box-sizing: border-box;
+        margin-top: 0;
+        font-size: small;
+    }
+
+    .kanan {
+        float: right;
+        width: 30%;
+        background-color: white;
+        height: 80vh;        
+        padding: 20px;
+        text-align: justify;
+        box-sizing: border-box;
+        
+    }
+
+    .up {
+        padding-top: 0;
+    }
+
+    hr{
+        border-style: solid;
+    }
+    
+    .gmb {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:2560px) {
+    .konten{
+        height: 94vh;
+    }
+
+    #nama, #sekolah, #kelas{
+        font-size: large;
+    }
+}

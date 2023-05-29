@@ -1,0 +1,88 @@
+body,h1,h2,h3,h4,h5,h6 {
+	font-family: Delius;
+	font-size: 17px;
+}
+
+h1, h2, h3 {
+	font-size: 27px;
+}
+
+h4 {
+	font-size: 23px;
+}
+
+h5, h6 {
+	font-size: 19px;
+}
+
+
+
+.border-login-guru {
+	border: 7px;
+	border-style: solid;
+	border-color: #f1f8e9;;
+}
+
+.input-placeholder {
+	text-align: center;
+}
+
+.button-login {
+	border: 4px;
+	border-style: dashed;
+	border-color: #f1f8e9;
+	width: 50%;
+}
+
+.guru-set {
+	background-position: center;
+	background-size: cover;
+	min-height: 100%;
+	padding-top: 53px;
+	padding-bottom: 43px;
+	background-color: #5a5c69;
+}
+
+
+
+.body-html-guru {
+	height: 100%;
+}
+
+.border-opsi {
+	border: 1px;
+	border-style: solid;
+	border-color: #cccccc;
+}
+
+.border-nilai {
+	border : 4px;
+	border-style: dashed;
+	border-color: green;
+	
+}
+
+table, th, td {
+	border : 4px;
+  	border-collapse: collapse;
+	border-color: #186f1d;
+	border-style: solid;
+}
+
+table {
+	width: 100%;
+}
+
+th, td {
+	padding: 6px;
+	text-align: center;
+}
+
+th {
+	background-color: #186f1d;
+}
+
+.table-container {
+	overflow: auto;
+}
+

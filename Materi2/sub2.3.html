@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Melukis Penjumlahan Vektor</title>
+    	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   		<link rel="stylesheet" href="../css/materi_style.css">
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+		<script>
+			MathJax = {
+			  tex: {
+				inlineMath: [['$', '$'], ['\\(', '\\)']]
+			  }
+			};
+			</script>
+			<script id="MathJax-script" async
+			  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+		</script>
+	</head>
+	<body>
+
+		<!--wrapper start-->
+		<div class="wrapper">
+			<!--header menu start-->
+			<div class="header">
+				<div class="header-menu">
+					<div class="title">VEKTOR</div>
+					<div class="sidebar-btn">
+						<i class="fas fa-bars"></i>
+					</div>
+					<ul>
+						<li><a href="../home.html"><i class='bx bx-home'></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<!--header menu end-->
+			<!--sidebar start-->
+			<div class="sidebar">
+				<div class="sidebar-menu">
+					<center class="profile">
+						<img src="../images/logo vektor.png" alt="">
+					</center>
+					<li class="item" id="profile">
+						<a href="#profile" class="menu-btn">
+							<i class='bx bxs-book-bookmark'></i><span style="font-weight: 700;">Vektor<i class="fas fa-chevron-down drop-down"></i></span>
+						</a>
+						<div class="sub-menu">
+							<a href="../Materi1/sub1.1.html"><i class='bx bx-bookmark' ></i><span>Perbedaan Skalar & Vektor</span></a>
+							<a href="../Materi1/sub2.html"><i class='bx bx-bookmark' ></i><span>Menulis & Menggambar Vektor</span></a>
+							<a href="../Materi1/sub3.html"><i class='bx bx-bookmark' ></i></i><span>Menyatakan suatu vektor</span></a>
+							<a href="../KUIS/kuis1.html"><i class='bx bxs-edit' ></i><span>Kuis 1</span></a>
+						</div>
+					</li>
+					<li class="item" id="messages">
+						<a href="#messages" class="menu-btn">
+							<i class='bx bx-math' ></i><span style="font-weight: 700;">Penjumlahan Vektor<i class="fas fa-chevron-down drop-down"></i></span>
+						</a>
+						<div class="sub-menu">
+							<a href="../Materi2/sub2.1.html"><i class='bx bx-bookmark' ></i><span>Metode Poligon</span></a>
+							<a href="../Materi2/sub2.2.html"><i class='bx bx-bookmark' ></i><span>Metode Jajar Genjang</span></a>
+							<a href="../Materi2/sub2.3.html"><i class='bx bx-bookmark' ></i><span>Metode grafis</span></a>
+							<a href="../Materi2/sub2.4.html"><i class='bx bx-bookmark' ></i><span>Metode Analitis</span></a>
+							<a href="../KUIS/kuis2.html"><i class='bx bxs-edit' ></i><span>Kuis 2</span></a>
+						</div>
+					</li>
+					<li class="item">
+						<a href="../KUIS/evaluasi.html" class="menu-btn">
+							<i class='bx bx-folder-open' ></i><span style="font-weight: 700;">Evaluasi</span>
+						</a>
+					</li>
+				</div>
+			</div>
+			<!--sidebar end-->
+			<!--main container start-->
+			<div class="main-container">
+				<!--JUDUL MATERI-->
+				<div class="card-header">C)	Menentukan Vektor Resultan dengan Metode Grafis</div>
+        		<div class="card-header-2">Tujuan Pembelajaran</div>
+        		<div class="content-card">
+           		<ul style="text-align:justify; line-height: 1.5em;">
+                	<li>Siswa dapat menentukan penjumlahan vektor 
+						dengan menggunakan metode grafus</li>
+            	</ul>
+        		</div>
+			</br>
+				<div class="content-card">
+					<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+                        Metode grafis adalah metode yang digunakan untuk menentukan besar resultan vektor 
+                        dengan cara mengukurnya. Panjang resultan vektor dapat diukur menggunakan mistar (penggaris), 
+                        sedangkan besar sudut vektor (arah vektor) diukur menggunakan busur derajat.
+					</p>
+					
+						<div class="kotak">
+							<div class="box">
+							<input checked="checked" id="box1" name="box" type="radio"> 
+							<label for="box1">Contoh Soal</label>
+							<div class="content">
+							<div class="contoh_soal" style="padding: 6; text-align:justify; line-height: 1.8em;">
+								<p>
+									Tentukan besar dan arah vektor resultan dari vektor perpindahan A sepanjang 15 m 
+									dengan arah $-20^0$ terhadap sumbu X positif dan vektor perpindahan B sepanjang 20 m 
+									dengan arah $+40^0$
+									terhadap sumbu X positif secara grafis
+								</p>	
+									<ul>
+										<li>Penyelesaian:</li>
+									</ul>
+								<p>
+									Langkah pertama, tetapkan besar perpindahan 15 m sama dengan panjang vektor 3 cm. 
+									Artinya, skala panjang vektor perpindahan 5 m dilukis dengan panjang vektor 1 cm. 
+									Sehingga, panjang vektor A adalah 3 cm dan panjang vektor B adalah 
+									$\frac{20\hspace{0.1cm}m}{5\hspace{0.1cm}m}\times 1\hspace{0.1cm}cm = 4\hspace{0.1cm}cm$, 
+									dengan sumbu X positif (arah mendatar ke kanan) sebagai acuan untuk menetapkan arah, 
+									lukisan vektor A adalah seperti pada <b>Gambar 10.(a)</b>
+									dan vektor B adalah seperti pada <b>Gambar 10.(b)</b>
+								</p>
+								<p>	
+									Langkah kedua, lukis vektor resultan R = A + B dengan metode poligon 
+									dan hasilnya ditunjukkan pada <b>Gambar 10. (c)</b>.sehingga 
+									dapat diketahui panjang vektor resulyan R dan sudut vektor R 
+									terhadap sumbu X positif dengan menggunakan geogebra.
+								</p>	
+								<p>
+									Yaitu panjang R = 6 cm dan arah R, yaitu $\theta=15,0^0$
+								</p>	
+								<p>
+									Besar vektor R dapat kita tentukan 
+									dengan mengalikan panjang vektor dengan skala vektor.
+								</p>	
+								<p>Besar $R =6\hspace{0.1cm}\times\frac{5\hspace{0.1cm}m}{1\hspace{0.1cm}cm} = 30 m$</p>
+								<p>Jadi, vektor resultan R memiliki besar 30 m 
+									dan arahnya membentuk sudut $15^0$ terhadap sumbu X positif.</p>
+						<!--Konten Foto 2-->
+						<div class="foto2">
+							<div class="responsive4" >
+								<div class="gallery2" >
+								  <a target="_blank" href="../images/Gambar 10.png">
+									<img src="../images/Gambar 10.png">
+								  </a>
+								  <div class="desc"><b>Gambar 10(a), (b)</b>. 
+									Vektor Perpindahan <b>(c)</b> Vektor resultan <b>R= A+B</b>
+									</div>
+								</div>
+							</div>
+								<div class="clearfix"></div>
+						</div>
+						<!--Konten Foto End 2-->
+							</div>
+							</div>
+							<input id="box2" name="box" type="radio"> 
+							<label for="box2">Latihan</label>
+							<div class="content">
+								<p style="text-align:justify; line-height: 1.5em; ">
+							<ol type="1">
+									<li>Dua buah vektor gaya A = 9 arah $0^0$ terhadap sumbu X+,
+										dan B = 5 N arah $90^0$ terhadap sumbu X+. Gambarkan vektor & 
+										tentukan besar dan arah vektor resultannya dengan menggunakan 
+										metode grafis
+										<br>
+										<br>
+										<iframe src="https://www.geogebra.org/classic" 
+										class="windows" width="670" height="300" allowfullscreen
+										style="border: 1px solid #2f9137; border-radius: 4px;" 
+										frameborder="0">
+										</iframe>
+										<div id="geogebra"></div>
+										<br>
+										<br>
+										Sehingga diperoleh, vektor resultan R memiliki besar 
+										<input type="text" name="" 
+										id="numb4" style="width: 60px;">
+										<b id="responseNumb4"></b> N dan arahnya
+										membentuk sudut 
+										<input type="text" name="" 
+										id="numb5" style="width: 60px;">
+										<b id="responseNumb5"></b> $^0$
+										terhadap sumbu X positif.
+										<br>
+										<br>
+										<br>
+										<button onclick="kirim()">Cek Jawaban</button>
+										<script>
+											function kirim(){
+										//jawaban latihan
+										//1a
+										const numb4 = document.querySelector('#numb4')
+										const responseNumb4 = document.querySelector('#responseNumb4')
+										if (numb4.value =='10,3'){
+											responseNumb4.innerHTML = '&#10003;'
+											responseNumb4.style = 'color: green;'
+										}
+										else if (numb4.value ==''){
+										responseNumb4.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+										responseNumb4.style = 'color: white;'
+										}
+										else{
+										responseNumb4.innerHTML = 'X'
+										responseNumb4.style = 'color: red;'
+										}
+										//1b
+										const numb5 = document.querySelector('#numb5')
+										const responseNumb5 = document.querySelector('#responseNumb5')
+										if (numb5.value =='29'){
+											responseNumb5.innerHTML = '&#10003;'
+											responseNumb5.style = 'color: green;'
+										}
+										else if (numb5.value ==''){
+										responseNumb5.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+										responseNumb5.style = 'color: white;'
+										}
+										else{
+										responseNumb5.innerHTML = 'X'
+										responseNumb5.style = 'color: red;'
+										}
+										}
+										</script>
+									</li> 
+							</ol>
+								</p>
+							</div>
+						</div>
+						  </div>
+				</div>
+                <br>
+			<!-- CODINGAN selanjutnya-->
+            <div class="nav_bawah">
+                <center>
+                    <a href="../Materi2/sub2.2.html" class="tombol" style="color: white;"><i
+                            class="fas fa-angle-double-left"></i>
+                        Sebelumnya</a>
+
+                    <a href="../Materi2/sub2.4.html" class="tombol" style="color: white;">Selanjutnya
+                        <i class="fas fa-angle-double-right"></i></a>
+                </center>
+            </div>
+			<!--main container end-->
+		<!--wrapper end-->
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$(".sidebar-btn").click(function(){
+				$(".wrapper").toggleClass("collapse");
+			});
+		});
+		</script>
+
+	</body>
+</html>

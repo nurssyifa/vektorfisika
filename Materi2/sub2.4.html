@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Melukis Penjumlahan Vektor</title>
+    	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   		<link rel="stylesheet" href="../css/materi_style.css">
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+		<script>
+			MathJax = {
+			  tex: {
+				inlineMath: [['$', '$'], ['\\(', '\\)']]
+			  }
+			};
+			</script>
+			<script id="MathJax-script" async
+			  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+		</script>
+	</head>
+	<body>
+
+		<!--wrapper start-->
+		<div class="wrapper">
+			<!--header menu start-->
+			<div class="header">
+				<div class="header-menu">
+					<div class="title">VEKTOR</div>
+					<div class="sidebar-btn">
+						<i class="fas fa-bars"></i>
+					</div>
+					<ul>
+						<li><a href="../home.html"><i class='bx bx-home'></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<!--header menu end-->
+			<!--sidebar start-->
+			<div class="sidebar">
+				<div class="sidebar-menu">
+					<center class="profile">
+						<img src="../images/logo vektor.png" alt="">
+					</center>
+					<li class="item" id="profile">
+						<a href="#profile" class="menu-btn">
+							<i class='bx bxs-book-bookmark'></i><span style="font-weight: 700;">Vektor<i class="fas fa-chevron-down drop-down"></i></span>
+						</a>
+						<div class="sub-menu">
+							<a href="../Materi1/sub1.1.html"><i class='bx bx-bookmark' ></i><span>Perbedaan Skalar & Vektor</span></a>
+							<a href="../Materi1/sub2.html"><i class='bx bx-bookmark' ></i><span>Menulis & Menggambar Vektor</span></a>
+							<a href="../Materi1/sub3.html"><i class='bx bx-bookmark' ></i></i><span>Menyatakan suatu vektor</span></a>
+							<a href="../KUIS/kuis1.html"><i class='bx bxs-edit' ></i><span>Kuis 1</span></a>
+						</div>
+					</li>
+					<li class="item" id="messages">
+						<a href="#messages" class="menu-btn">
+							<i class='bx bx-math' ></i><span style="font-weight: 700;">Penjumlahan Vektor<i class="fas fa-chevron-down drop-down"></i></span>
+						</a>
+						<div class="sub-menu">
+							<a href="../Materi2/sub2.1.html"><i class='bx bx-bookmark' ></i><span>Metode Poligon</span></a>
+							<a href="../Materi2/sub2.2.html"><i class='bx bx-bookmark' ></i><span>Metode Jajar Genjang</span></a>
+							<a href="../Materi2/sub2.3.html"><i class='bx bx-bookmark' ></i><span>Metode grafis</span></a>
+							<a href="../Materi2/sub2.4.html"><i class='bx bx-bookmark' ></i><span>Metode Analitis</span></a>
+							<a href="../KUIS/kuis2.html"><i class='bx bxs-edit' ></i><span>Kuis 2</span></a>
+						</div>
+					</li>
+					<li class="item">
+						<a href="../KUIS/evaluasi.html" class="menu-btn">
+							<i class='bx bx-folder-open' ></i><span style="font-weight: 700;">Evaluasi</span>
+						</a>
+					</li>
+				</div>
+			</div>
+			<!--sidebar end-->
+			<!--main container start-->
+			<div class="main-container">
+				<!--JUDUL MATERI-->
+				<div class="card-header">D)	Menentukan Vektor Resultan dengan Metode Analitis</div>
+        		<div class="card-header-2">Tujuan Pembelajaran</div>
+        		<div class="content-card">
+           		<ul style="text-align:justify; line-height: 1.5em;">
+                	<li>Siswa dapat menentukan penjumlahan vektor dengan metode analisis 
+						menggunakan metode rumus resultan dan metode komponen vektor</li>
+					<li>
+						Siswa dapat menerapkan prinsip penjumlahan vektor sebidang
+					</li>
+            	</ul>
+        		</div>
+			</br>
+				<div class="content-card">
+					<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+						Metode analitis adalah adalah cara melukiskan dan menentukan hasil 
+						penjumlahan vektor (resultan) melalui proses penguraian vektor 
+						menjadi vektor-vektor komponennya. Jadi, dengan menggunakan 
+						metode analitis kita tidak hanya mengetahui resultan vektor 
+						secara grafis tetapi juga dapat mengetahui besar dan arah 
+						vektor resultan secara kuantitatif. Ada dua cara dalam metode analitis, 
+						yaitu menggunakan rumus kosinus dan menggunakan komponen vektor.
+						<div class="sub2_materi" style="padding: 14px;">
+						<ol type="1">
+							<li>
+								Menentukan vektor resultan dengan rumus resultan
+								<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+									Dasar dari menentukan resultan dua vektor dengan rumus resultan 
+									adalah rumus kosinus dan rumus sinus pada suatu segitiga sembarang. 
+									Perhatikan Gambar 11. $∠OAC =(180^0-α)$ adalah sudut dihadapan sisi OC dalam ΔOAC 
+									sehingga rumus kosinus dalam ΔOAC memberikan persamaan berikut.
+								</p>
+								<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+									Perhatikan <b>Gambar 11</b> $∠OAC =(180^0-α)$ adalah 
+									sudut dihadapan sisi $OC$ dalam $ΔOAC$ sehingga rumus kosinus 
+									dalam ΔOAC memberikan persamaan berikut.
+								</p>
+								<br>
+								<p style="text-indent: 35px;  text-align:justify; line-height: 2em; ">
+									<center>
+									$OC^2=OA^2+AC^2-2OA.AC\hspace{0.1cm}cos\hspace{0.1cm}\angle OAC$
+									<br>
+									$\hspace{1.7cm}= OA^2+AC^2-2OA.AC\hspace{0.1cm}cos\hspace{0.1cm}(180^0-\alpha )$
+									<br>
+									$\hspace{0.6cm}=OA^2+AC^2-2OA.AC\hspace{0.1cm}(-cos\hspace{0.1cm}\alpha )$
+									<br>
+									$\hspace{0.22cm}=OA^2+AC^2-2OA.AC\hspace{0.1cm}(cos\hspace{0.1cm}\alpha )$
+									</center>
+								</p>
+								<br>
+								<p style="text-align:justify; line-height: 1.5em; ">
+									$OC=R,OA=F_1,dan AC =F_2,$ sehingga persamaannya dapat 
+									ditulis sebagai berikut.
+								</p>
+								<br>
+								<center>
+									<div class="rectangle4">
+									<p style="text-align: center;">$\hspace{0.48cm}R=F_1^2+F_2^2+2F_1F_2
+										\hspace{0.1cm}cos\hspace{0.1cm}\alpha$</p>
+									</div>
+								</center>
+								<br>
+								<p style="text-align:justify; line-height: 2em; ">
+									<b>Rumus besar vektor resultan antara 2 vektor</b>
+								</p>
+								<br>
+								<center>
+									<div class="rectangle4">
+									<p style="text-align: center;">$\hspace{0.44cm}R=\sqrt{F_1^2+F_2^2+
+										2F_1F_2\hspace{0.1cm}cos\hspace{0.1cm}\alpha\hspace{0.48cm}}$</p>
+									</div>
+								</center>
+								<br>
+								<p style="text-indent: 35px; text-align:justify; line-height: 1.5em; ">
+									Dengan $0^0 ≤ \alpha ≤ 180^0$ disebut sudut apit, 
+									yaitu sudut terkecil yang dibentuk oleh vektor F1  dan F2. 
+									Adapun arah vektor R terhadap salah satu vektor, 
+									misalnya F1, yaitu B, dihitung dengan rumus sinus.
+									<!--Konten Foto 2-->
+									<div class="foto2">
+										<div class="responsive3" >
+											<div class="gallery2" >
+											<a target="_blank" href="../images/Analisis 11.png">
+												<img src="../images/Analisis 11.png">
+								  			</a>
+								  			<div class="desc"><b>Gambar 11</b>. Menentukan 
+												vektor resultan $F_1$ dan $F_2$
+											</div>
+											</div>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+									<!--Konten Foto End 2-->
+									<br>
+									Nilai vektor resultan dari dua vektor $R=F_1+F_2$ 
+									memiliki batas sebagai berikut:
+								</p>
+								<p style="text-align:justify; line-height: 2em; ">
+									<b>Batas vektor resultan</b>
+									<br>
+									<center>
+										$R_{min}\leq R\leq R_{maks}$
+										<br>
+										dengan $R_{min}=\mid F_1-F_2\mid$ dan $R_{maks}=F_1+F_2$
+									</center>
+								</p>
+							</li>
+							<li>
+								Menentukan vektor resultan dengan metode komponen vektor
+								<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+									Metode komponen vektor artinya tiap vektor kita 
+									nyatakan dahulu dalam vektor-vektor satuan I dan j
+									<br>
+									<center>
+										<div class="rectangle">
+										<p style="text-align: center;">$
+										r=r_x i+r_y j$</p>
+										</div>
+									</center>
+									<br>
+									dengan rx adalah komponen-komponen vektor 
+									pada sumbu X dan ry adalah komponen-komponen vektor pada sumbu Y, 
+									yang dihitung seperti persamaan berikut.
+									<br>
+									<br>
+								</p>
+								<p style="text-align:justify; line-height: 1.5em; ">
+									<center>
+										<div class="rectangle4">
+										<p style="text-align: center;">
+										$r_x=r cos⁡⁡\hspace{0.1cm}  dan\hspace{0.1cm} 
+										r_y=r sin⁡\hspace{0.1cm}\theta$</p>
+										</div>
+									</center>
+									<br>
+									dengan θ adalah sudut terhadap sumbu X+. rx diberi vektor
+									 satuan +I jika arahnya ke kanan dan –I jika arahnya ke kiri. Adapun r¬y 
+									diberi vektor +j jika arahnya ke atas dan –j jika arahnya ke bawah.
+								</p>
+							</li>
+						</ol>
+						</div>
+					</p>
+						<div class="kotak" style="text-align:justify; line-height: 1.5em; ">
+							<div class="box">
+							<input checked="checked" id="box1" name="box" type="radio"> 
+							<label for="box1">Contoh Soal</label>
+							<div class="content">
+								<ul>
+									<li><b>Menentukan vektor resultan dengan rumus resultan</b></li>
+								</ul>
+								<ol type="1">
+									<li>
+										Dua vektor $F_1$ dan $F_2$ memiliki panagkal 
+										berimpit dan masing-masing memiliki besar 3 N dan 4 N. Jika sudut apit 
+										antara kedua vektor adalah $60^0$, tentukan:
+										<ol type="a">
+											<li>Vektor resultan $R=F_1+F_2$  dan</li>
+											<li>Vektor selisih $S=F_1-F_2$.</li>
+										</ol>
+										Strategi F_1 berarah mendatar ke kanan sebagai acuan. 
+										Gambar sketsa R dan S dengan metode jajargenjang (lihat <b>Gambar 12</b>)
+										<!--Konten Foto 2-->
+									<div class="foto2">
+										<div class="responsive3" >
+											<div class="gallery2" >
+											<a target="_blank" href="../images/Analitis cth.png">
+												<img src="../images/Analitis cth.png">
+								  			</a>
+								  			<div class="desc"><b>Gambar 12</b>.
+												Sketsa soal
+											</div>
+											</div>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+									<!--Konten Foto End 2-->
+									<p>
+										Perhatikan, untuk $R=F_1+ F_2$, sudut apit adalah 
+										sudut antara $F_1$  dan $F_2$, sedangkan untuk $S=F_1- F_2$, 
+										sudut apit adalah  antara $F_1- F_2$. Selanjutnya, 
+										hitung besar R dan S dengan rumus resultan [persamaan (3-6)] 
+										dan hitung arah R dan S terhadap acuan $F_1$  dengan
+										rumus sinus
+										<ol type="a">
+											<li>Sudut apit antara $F_1$  dan $F_2$ adalah
+												<br>
+												<br>
+												$\angle AOB = 60^0$
+												<br>
+												<br>
+												$cos\hspace{0.1cm} \angle AOB = \frac{1}{2}$
+												<br>
+												<br>
+												Besar vektor resultan R menurun (3-6) adalah sebagai berikut
+												<br>
+												<br>
+												$R=\sqrt{F_1^2+F_2^2+2F_1F_2\hspace{0.1cm}cos\hspace{0.1cm}\angle AOB}$
+												<br>
+												<br>
+												$\hspace{0.4cm}=\sqrt{(3)^2 +(4)^2+2(3)(4)\frac{1}{2}}$
+												<br>
+												<br>
+												$\hspace{0.4cm}=\sqrt{37}N$
+												<br>
+												<br>
+												Arah vektor resultan R terhadap acuan $F_1$ yaitu, sudut β 
+												(lihat <b>Gambar 12</b>) dihitung dengan menggunakan rumus 
+												sinus dalam $\angle AOC$
+												<br>
+												<br>
+												$\frac{AC}{sin \beta }\hspace{0.35cm}= \frac{OC}{sin \hspace{0.1em} \angle AOC}$
+												$\hspace{2.4cm} \angle AOC = (190-160)^0 = 120^0$
+												<br>
+												<br>
+												$sin \hspace{0.1em} \beta  \hspace{0.2cm}= \frac{AC \hspace{0.1em} sin \hspace{0.1em}120^0}{OC}$
+												$\hspace{2.4cm} AC = F_2 = 4N; \hspace{0.2cm} OC=R=\sqrt{37}N$
+												<br>
+												<br>
+												$sin \hspace{0.1em} \beta  \hspace{0.2cm} =\frac{4(\frac{1}{2}\sqrt3)}{\sqrt {37}}=0,567$
+												<br>
+												<br>
+												$\beta \hspace{0.89cm} =34,7^0$
+												<br>
+												<br>
+											</li>
+											<li>
+												Sudut apit antara $F_1$  dan $-F_2$ 
+												(lihat <b>Gambar 12</b>) adalah sebagai berikut.
+												<br>
+												<br>
+												$\angle AOE = (180-160)^0 = 120^0$
+												<br>
+												<br>
+												$COS \hspace{0.1cm} \angle AOE= cos\hspace{0.1cm}120^0= -\frac{1}{2}$
+												<br>
+												<br>
+												$ S= \sqrt{F_1^2 +F_2^2 - 2F_1F_2 \hspace{0.1cm} cos\theta}$
+												<br>
+												<br>
+												$S=\sqrt{3^2 + 4^2-2 \times 3 \times 4 \hspace{0.1cm} cos \hspace{0.1cm} 120^0}$
+												<br>
+												<br>
+												$S= \sqrt{9 + 16 - 24.(-\frac{1}{2})}$
+												<br>
+												<br>
+												$S =\sqrt {9+16+12}$
+												<br>
+												<br>
+												$S=\sqrt{37}=6,08N$
+											</li>
+										</ol>
+									</p>
+									</li>
+									<ul>
+										<li>
+										<b>Menentukan vektor resultan dengan metode komponen vektor</b>
+										</li>
+									</ul>
+									<li>
+										Tentukan vektor resultan beserta besar dan arahnya 
+										dari ketiga gaya berikut,
+										<br>
+									<!--Konten Foto 2-->
+									<div class="foto2">
+										<div class="responsive3" >
+											<div class="gallery2" >
+											<a target="_blank" href="../images/Gambar13.png">
+												<img src="../images/Gambar13.png">
+								  			</a>
+								  			<div class="desc"><b>Gambar 13</b>.
+												Analisis soal
+											</div>
+											</div>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+									<!--Konten Foto End 2-->
+									<br>
+									Penyelesaian
+									<br>
+									Gaya 6 N ke kanan bawah ditulis $F_1=6i$
+									<br>
+									Gaya 3 N ke bawah ditulis $F_2=-3j$
+									<br>
+									Gaya 10 N membentuk sudut $\theta=53^0$
+											terhadap sumbu X+ kita tulis
+											<br>
+											<br>
+											$F_3 = F_{3x} i + F_{3y} j$
+											<br>
+											<br>
+											$F_{3x} = F_3 \hspace{0.1cm} cos \hspace{0.1cm} 
+											53^0=10 (0,6)=6 N$
+											<br>
+											$\hspace{10cm} \leftrightarrow \hspace{0.3cm} F_3 =6i+8j $
+											<br>
+											<br>
+											$F_3y = F_3 \hspace{0.1cm} sin \hspace{0.1cm} 
+											53^0=10 (0,8)=8 N$
+										<br>
+										<br>
+										vektor resultan ketiga gaya adalah sebagai berikut.
+										<br>
+										<br>
+										$F_1+F_2+F_3$
+										<br>
+										<br>
+										$F=6i+(-3j)+(6i+8j)$
+										<br>
+										<br>
+										$F=(6i+6i)+(-3j+8j)$
+										<br>
+										<br>
+										$F=12i+5jN$
+										<br>
+										<br>
+										Besar vektor resultan adalah sebagai berikut.
+										<br>
+										<br>
+										$F= \sqrt{(12)^2 + (5)^2}$
+										<br>
+										<br>
+										$\hspace{0.45cm} = 13 N$
+										<br>
+										<br>
+										Arah vektor resultan adalah sebagai berikut.
+										<br>
+										<br>
+										$ tan \theta = \frac{5}{12}$ (<i>kuadran I</i>)
+										<br>
+										<br>
+										$\hspace{0.65cm} \theta=tan^{-1} (\frac{5}{12})$
+										<br>
+										<br>
+										$= 22,6^0$
+										<br>
+										<br>
+										Jadi, vektor resultan ketiga gaya adalah 
+										F= (12i+5j)  N dengan besar 13N dan 
+										membentuk sudut $22,6^0$ terhadap sumbu X+.
+									</li>
+								</ol>
+							</div>
+							<input id="box2" name="box" type="radio"> 
+							<label for="box2">Latihan</label>
+							<div class="content">
+								<p style="text-align:justify; line-height: 2em; ">
+							<ol type="1">
+								<li>Dua vektor gaya $F_1$  dan $F_2$ masing-masing 
+									sebesar 6N dan 10 N bertitik tangkap sama. 
+									Jika kedua vektor gaya tersebut membentuk sudut $60^0$, 
+									maka besar resultan gayanya adalah….
+									<br>
+									<br>
+									Diketahui:
+									<br>
+									<br>
+									$F_1$ = 
+									<input type="text" name="" 
+									id="numb0a" style="width: 40px;">
+									<b id="responseNumb0a"></b>
+									N
+									<br>
+									<br>
+									$F_2$ = <input type="text" name="" 
+									id="numb0b" style="width: 40px;">
+									<b id="responseNumb0b"></b>
+									N
+									<br>
+									<br>
+									$\theta \hspace{0.27cm}$ = 
+									<input type="text" name="" 
+									id="numb0c" style="width: 40px;">
+									<b id="responseNumb0c"></b>
+									$^0$
+									<br>
+									<br>
+									Ditanyakan: R = ?
+									<br>
+									<br>
+									R = $\sqrt{F_1^2+F_2^2+2F_1F_2 \hspace{0.2cm}cos \alpha}$
+									<br>
+									<br>
+									R = $\sqrt{}$
+									<input type="text" name="" 
+									id="numb1a" style="width: 40px;">
+									<b id="responseNumb1a"></b>
+									$^2$ +
+									<input type="text" name="" 
+									id="numb1b" style="width: 40px;">
+									<b id="responseNumb1b"></b>
+									$^2$ +
+									2 (<input type="text" name="" 
+									id="numb1c" style="width: 40px;">
+									<b id="responseNumb1c"></b>)
+									(<input type="text" name="" 
+									id="numb1d" style="width: 40px;">
+									<b id="responseNumb1d"></b>) 
+									$\hspace{0.2cm}cos$ 
+									<input type="text" name="" 
+									id="numb1e" style="width: 40px;">
+									<b id="responseNumb1e"></b>
+									$^0$
+									<br><br>
+									$\hspace{0.4cm} = \sqrt{}$
+									<input type="text" name="" 
+									id="numb1f" style="width: 40px;">
+									<b id="responseNumb1f"></b>
+									<br><br>
+									$\hspace{0.4cm}$ = 
+									<input type="text" name="" 
+									id="numb1g" style="width: 40px;">
+									<b id="responseNumb1g"></b>
+									N
+									<br>
+									<br>
+									
+								</li> 
+								<li>
+								Resultan ketiga gaya pada gambar di bawah ini adalah
+								<br><br>
+								<img src="../images/analisl1.png" alt="" 
+								style="width: 190px; height: 180px;">
+								<br>
+								</li>
+							</ol>
+							<br>
+									<br>
+									<br>
+							<button onclick="kirim()">Cek Jawaban</button>
+										<script>
+											function kirim(){
+										//jawaban latihan
+										//0a
+										const numb0a = document.querySelector('#numb0a')
+										const responseNumb0a = document.querySelector('#responseNumb0a')
+										if (numb0a.value =='6'){
+											responseNumb0a.innerHTML = '&#10003;'
+											responseNumb0a.style = 'color: green;'
+										}
+										else if (numb0a.value ==''){
+										responseNumb0a.innerHTML = '!'
+										responseNumb0a.style = 'color: red;'
+										}
+										else{
+										responseNumb0a.innerHTML = 'X'
+										responseNumb0a.style = 'color: red;'
+										}
+										//0b
+										const numb0b = document.querySelector('#numb0b')
+										const responseNumb0b = document.querySelector('#responseNumb0b')
+										if (numb0b.value =='10'){
+											responseNumb0b.innerHTML = '&#10003;'
+											responseNumb0b.style = 'color: green;'
+										}
+										else if (numb0b.value ==''){
+										responseNumb0b.innerHTML = '!'
+										responseNumb0b.style = 'color: red;'
+										}
+										else{
+										responseNumb0b.innerHTML = 'X'
+										responseNumb0b.style = 'color: red;'
+										}
+										//0c
+										const numb0c = document.querySelector('#numb0c')
+										const responseNumb0c = document.querySelector('#responseNumb0c')
+										if (numb0c.value =='60'){
+											responseNumb0c.innerHTML = '&#10003;'
+											responseNumb0c.style = 'color: green;'
+										}
+										else if (numb0c.value ==''){
+										responseNumb0c.innerHTML = '!'
+										responseNumb0c.style = 'color: red;'
+										}
+										else{
+										responseNumb0c.innerHTML = 'X'
+										responseNumb0c.style = 'color: red;'
+										}
+										//1a
+										const numb1a = document.querySelector('#numb1a')
+										const responseNumb1a = document.querySelector('#responseNumb1a')
+										if (numb1a.value =='6'){
+											responseNumb1a.innerHTML = '&#10003;'
+											responseNumb1a.style = 'color: green;'
+										}
+										else if (numb1a.value ==''){
+										responseNumb1a.innerHTML = '!'
+										responseNumb1a.style = 'color: red;'
+										}
+										else{
+										responseNumb1a.innerHTML = 'X'
+										responseNumb1a.style = 'color: red;'
+										}
+										//1b
+										const numb1b = document.querySelector('#numb1b')
+										const responseNumb1b = document.querySelector('#responseNumb1b')
+										if (numb1b.value =='10'){
+											responseNumb1b.innerHTML = '&#10003;'
+											responseNumb1b.style = 'color: green;'
+										}
+										else if (numb1b.value ==''){
+										responseNumb1b.innerHTML = '!'
+										responseNumb1b.style = 'color: red;'
+										}
+										else{
+										responseNumb1b.innerHTML = 'X'
+										responseNumb1b.style = 'color: red;'
+										}
+										//1c
+										const numb1c = document.querySelector('#numb1c')
+										const responseNumb1c = document.querySelector('#responseNumb1c')
+										if (numb1c.value =='6'){
+											responseNumb1c.innerHTML = '&#10003;'
+											responseNumb1c.style = 'color: green;'
+										}
+										else if (numb1c.value ==''){
+										responseNumb1c.innerHTML = '!'
+										responseNumb1c.style = 'color: red;'
+										}
+										else{
+										responseNumb1c.innerHTML = 'X'
+										responseNumb1c.style = 'color: red;'
+										}
+										//1d
+										const numb1d = document.querySelector('#numb1d')
+										const responseNumb1d = document.querySelector('#responseNumb1d')
+										if (numb1d.value =='10'){
+											responseNumb1d.innerHTML = '&#10003;'
+											responseNumb1d.style = 'color: green;'
+										}
+										else if (numb1d.value ==''){
+										responseNumb1d.innerHTML = '!'
+										responseNumb1d.style = 'color: red;'
+										}
+										else{
+										responseNumb1d.innerHTML = 'X'
+										responseNumb1d.style = 'color: red;'
+										}
+										//1e
+										const numb1e = document.querySelector('#numb1e')
+										const responseNumb1e = document.querySelector('#responseNumb1e')
+										if (numb1e.value =='60'){
+											responseNumb1e.innerHTML = '&#10003;'
+											responseNumb1e.style = 'color: green;'
+										}
+										else if (numb1e.value ==''){
+										responseNumb1e.innerHTML = '!'
+										responseNumb1e.style = 'color: red;'
+										}
+										else{
+										responseNumb1e.innerHTML = 'X'
+										responseNumb1e.style = 'color: red;'
+										}
+										//1f
+										const numb1f = document.querySelector('#numb1f')
+										const responseNumb1f = document.querySelector('#responseNumb1f')
+										if (numb1f.value =='196'){
+											responseNumb1f.innerHTML = '&#10003;'
+											responseNumb1f.style = 'color: green;'
+										}
+										else if (numb1f.value ==''){
+										responseNumb1f.innerHTML = '!'
+										responseNumb1f.style = 'color: red;'
+										}
+										else{
+										responseNumb1f.innerHTML = 'X'
+										responseNumb1f.style = 'color: red;'
+										}
+										//1g
+										const numb1g = document.querySelector('#numb1g')
+										const responseNumb1g = document.querySelector('#responseNumb1g')
+										if (numb1g.value =='14'){
+											responseNumb1g.innerHTML = '&#10003;'
+											responseNumb1g.style = 'color: green;'
+										}
+										else if (numb1g.value ==''){
+										responseNumb1g.innerHTML = '!'
+										responseNumb1g.style = 'color:red;'
+										}
+										else{
+										responseNumb1g.innerHTML = 'X'
+										responseNumb1g.style = 'color: red;'
+										}
+										
+										}
+										</script>
+								</p>
+							</div>
+						</div>
+						  </div>
+				</div>
+                <br>
+			<!-- CODINGAN selanjutnya-->
+            <div class="nav_bawah">
+                <center>
+                    <a href="../Materi2/sub2.3.html" class="tombol" style="color: white;"><i
+                            class="fas fa-angle-double-left"></i>
+                        Sebelumnya</a>
+
+                    <a href="../KUIS/kuis2.html" class="tombol" style="color: white;">Selanjutnya
+                        <i class="fas fa-angle-double-right"></i></a>
+                </center>
+            </div>
+			<!--main container end-->
+		<!--wrapper end-->
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$(".sidebar-btn").click(function(){
+				$(".wrapper").toggleClass("collapse");
+			});
+		});
+		</script>
+
+	</body>
+</html>

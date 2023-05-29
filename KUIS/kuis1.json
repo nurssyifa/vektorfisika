@@ -1,0 +1,103 @@
+[{
+    "soal0": {
+        "soal":	"Berikut ini yang termasuk kelompok besaran vektor adalah. . . .</>",
+        "a": "a. gaya, jarak, dan kecepatan",
+        "b": "b. tekanan, jarak, dan kecepatan",
+        "c": "c. perpindahan, kecepatan, dan kelajuan",
+        "d": "d. perpindahan, laju, dan percepatan",
+        "e": "e. gaya, percepatan, dan perpindahan",
+        "benar": "e"
+    }
+},{
+    "soal1": {
+        "soal": "perhatikan kalimat berikut.<br><i>kelajuan sebuah keong, waktu yang diperlukan untuk berlari sejauh 1 km, dan percepatan jatuh bebas.</i><br>Besaran-besaran tersebut secara berturut-turut merupakan besaran....</>",
+        "a": "a. skalar, vektor, skalar ",
+        "b": "b. vektor, skalar, skalar",
+        "c": "c. skalar, skalar, vektor",
+        "d": "d. vektor, skalar, vektor",
+        "e": "e. skalar, vektor, vektor",
+        "benar": "c"
+    }
+},{
+    "soal2":{
+        "soal": "Besaran-besaran berikut yang dipengaruhi arahnya adalah ....</>",
+        "a": "a. massa",
+        "b": "b. waktu",
+        "c": "c. usaha",
+        "d": "d. jarak",
+        "e": "e. kecepatan",
+        "benar": "e"
+    }
+},{
+    "soal3":{
+        "soal": "Perhatikan besaran di bawah ini!<br><ol><li>Momentum</li><li>Suhu</li><li>Tekanan</li><li>Berat</li> </ol>. . .</>",
+        "a": "a. (1), (2), dan (3)",
+        "b": "b. (1) dan (2)",
+        "c": "c. (2) dan (3)",
+        "d": "d. (2) dan (4)",
+        "e": "e. (4) saja",
+        "benar": "c"
+    }
+},{
+    "soal4":{
+        "soal": "Seseorang menarik meja ke arah barat dengan gaya 60 N. Jika 1 cm mewakili gaya 15 N, gambar vektor gaya tersebut yang benar adalah. . .</> ",
+        "a": "a. <img>",
+        "b": "b. <img>",
+        "c": "c. <img>",
+        "d": "d. <img>",
+        "e": "e. <img>",
+        "benar": "c"
+    }
+},{
+    "soal5":{
+        "soal": "Pada minggu pagi, Alfa memarkir motor di depan Masjid Agung Al-karomah, Martapura. Alfa bersama teman-temannya berlari mengelilingi alun-alun martapura sebanyak 5 putaran. Setelah selesai berlari, Alfa kembali menuju motor di depan masjid. Perhatikan pernyataan berikut:<ol><li>Perpindahan yang dilakukan Alfa 5 putaran alun-alun</li><li>Jarak yang ditempuh Alfa 5 putaran alun-alun</li><li>Perpindahan yang dilakukan 0 (nol)</li><li>Jarak yang ditempuh Alfa 0 (nol)</li><li>Perpindahan merupakan besaran vector, sedangkan jarak termasuk besaran skalar</li></ol><br> Pernyataan yang benar adalah nomor . . .</>",
+        "a": "a. 1), 2), dan 3)",
+        "b": "b. 1), 3), dan 5)",
+        "c": "c. 2), 4), dan 5)",
+        "d": "d. 2), 3), dan 5)",
+        "e": "e. 3), 4), dan 5)",
+        "benar": "d"
+    }
+},{
+    "soal6":{
+        "soal": "Seseorang berjalan ke timur sejauh 80 m kemudian berbelok ke selatan dan berjalan sejauh 60 m. Arah perpindahan orang tersebut adalah. . .</>",
+        "a": "a. 60⁰ dari timur ke selatan",
+        "b": "b. 60⁰  dari selatan ke timur",
+        "c": "c. 53⁰  ari timur ke selatan",
+        "d": "d. 37⁰  dari timur ke selatan",
+        "e": "e. 37⁰ dari selatan ke timur",
+        "benar": "d"
+    }
+},{
+    "soal7":{
+        "soal": "Sebuah vektor 8 N diuraikan menjadi dua vektor yang saling tegak lurus dan salah satunya membentuk sudut 60⁰ terhadap vektor tersebut. Besar komponen masing-masing vektor adalah. . .</>",
+        "a": "a. 4N dan 4√2 N",
+        "b": "b. 4N dan 4√3 N",
+        "c": "c. 4N dan 8N",
+        "d": "d. 4N dan 8√2 N",
+        "e": "e. 4√2 N dan 8N",
+        "benar": "e"
+    }
+},{
+    "soal8":{
+        "soal": "Seekor anak kucing berlari ke arah timur sejauh 9 m, kemudian berbelok ke selatan sejauh 12 m. perpindahan yang di alami kucing tersbut adalah. . .</>",
+        "a": "a. 9m",
+        "b": "b. 12m",
+        "c": "c. 15m",
+        "d": "d. 21m",
+        "e": "e. 25m",
+        "benar": "e"
+    }
+},{
+    "soal9":{
+        "soal": "Sebuah vektor gaya besarnya 20 N dengan arah membentuk sudut 30^0 terhadap sumbu X. Berapakah besar komponenya pada sumbu X dan sumbu Y. . .</>",
+        "a": "a. 10 √3 N dan 10 N",
+        "b": "b. 10 N dan 10 √3 N",
+        "c": "c. 3 N dan 10 N",
+        "d": "d. 25√3 N dan 10N",
+        "e": "e. 3N dan 25√3 N",
+        "benar": "a"
+    }
+}
+
+]

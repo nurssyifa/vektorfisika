@@ -1,0 +1,279 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Atur KKM</title>
+    <!-- <link rel="stylesheet" href="../css/csshasil.css" type="text/css"> -->
+    <link rel="shortcut icon" type="icon" href="#"> 
+    <link rel="stylesheet" href="../assets/vendor/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/sb-admin-2.min.css">
+    <link rel="stylesheet" href="../guru/cssguru/footer.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>	
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <style>
+        label, button{
+            margin-right: 0.5%;
+        }
+        table{
+            margin: 5px;
+        }
+        @media(max-width: 1000px) {
+        .card{
+            width: fit-content;
+        }
+        
+    }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../imguru/logo vektor.png" height="63px" width="68px">
+            <h1>VEKTOR</h1>
+        </div>
+        <div class="navbar">
+        </div>
+    </header>
+    
+
+        <div class="card-body">
+            
+        <br>
+        <div class="table-responsive">
+            <table class="table table-sm text-center">
+                <thead class="table-primary">
+                  <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Atur KKM Kuis atau Evaluasi</th>
+                    
+                    <th scope="col">KKM Saat Ini</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modalKuis1"><i class="fas fa-fw fa-edit"></i>Atur</button>Kuis 1</td>
+                    <td><div class="kkm1"></div></td>
+                </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modalKuis2"><i class="fas fa-fw fa-edit"></i>Atur</button>Kuis 2</td>
+                    <td><div class="kkm2"></div></td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modalKuis7"><i class="fas fa-fw fa-edit"></i>Atur</button>Evaluasi</td>
+                    <td><div class="kkm7"></div></td>
+                </tr>
+                  
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <button type="button" class="btn btn-outline-warning" style="width: fit-content;margin: 10px 10px; background-color: #ffc107;color: black;" onclick="location.href='halamanguru.html'"><i class="fas fa-arrow-circle-left"></i>&nbsp;&nbsp;Kembali</button>
+                            
+        </div>
+    </div>
+
+    <!-- Modal Kuis 1-->
+    <div class="modal fade" id="modalKuis1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Edit KKM Kuis 1</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">KKM</label>
+                    <div class="col-sm-10">
+                      <input type="number" class="form-control editKKM1" id="kkm1">
+                    </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+            <button type="button" class="btn btn-primary" onclick="setKKM1();" data-dismiss="modal">Simpan</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Modal Kuis 2-->
+    <div class="modal fade" id="modalKuis2" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Edit KKM Kuis 2</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">KKM</label>
+                    <div class="col-sm-10">
+                      <input type="number" class="form-control editKKM2" id="kkm2">
+                    </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+            <button type="button" class="btn btn-primary" onclick="setKKM2();" data-dismiss="modal">Simpan</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Modal Kuis 3-->
+    <div class="modal fade" id="modalKuis3" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Edit KKM Kuis 3</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">KKM</label>
+                    <div class="col-sm-10">
+                      <input type="number" class="form-control editKKM3" id="kkm3">
+                    </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+            <button type="button" class="btn btn-primary" onclick="setKKM3();" data-dismiss="modal">Simpan</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Modal Kuis 4-->
+    <div class="modal fade" id="modalKuis4" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Edit KKM Kuis 4</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">KKM</label>
+                    <div class="col-sm-10">
+                      <input type="number" class="form-control editKKM4" id="kkm4">
+                    </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+            <button type="button" class="btn btn-primary" onclick="setKKM4();" data-dismiss="modal">Simpan</button>
+            </div>
+        </div>
+        </div>
+    </div>
+     <!-- Modal Kuis 5-->
+     <div class="modal fade" id="modalKuis5" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Edit KKM Kuis 5</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">KKM</label>
+                    <div class="col-sm-10">
+                      <input type="number" class="form-control editKKM5" id="kkm5">
+                    </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+            <button type="button" class="btn btn-primary" onclick="setKKM5();" data-dismiss="modal">Simpan</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Modal Kuis 6-->
+    <div class="modal fade" id="modalKuis6" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Edit KKM Kuis 6</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">KKM</label>
+                    <div class="col-sm-10">
+                      <input type="number" class="form-control editKKM6" id="kkm6">
+                    </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+            <button type="button" class="btn btn-primary" onclick="setKKM6();" data-dismiss="modal">Simpan</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Modal Kuis 7-->
+    <div class="modal fade" id="modalKuis7" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Edit KKM Evaluasi</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">KKM</label>
+                    <div class="col-sm-10">
+                      <input type="number" class="form-control editKKM7" id="kkm7">
+                    </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+            <button type="button" class="btn btn-primary" onclick="setKKM7();" data-dismiss="modal">Simpan</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="../assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="../assets/js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="../assets/vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="../assets/js/demo/chart-area-demo.js"></script>
+    <script src="../assets/js/demo/chart-pie-demo.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+
+<script src="js/kkm.js"></script>
+</body>
+</html> 

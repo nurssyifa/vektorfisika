@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Melukis Penjumlahan Vektor</title>
+    	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   		<link rel="stylesheet" href="../css/materi_style.css">
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+		<script>
+			MathJax = {
+			  tex: {
+				inlineMath: [['$', '$'], ['\\(', '\\)']]
+			  }
+			};
+			</script>
+			<script id="MathJax-script" async
+			  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+		</script>
+	</head>
+	<body>
+
+		<!--wrapper start-->
+		<div class="wrapper">
+			<!--header menu start-->
+			<div class="header">
+				<div class="header-menu">
+					<div class="title">VEKTOR</div>
+					<div class="sidebar-btn">
+						<i class="fas fa-bars"></i>
+					</div>
+					<ul>
+						<li><a href="../home.html"><i class='bx bx-home'></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<!--header menu end-->
+			<!--sidebar start-->
+			<div class="sidebar">
+				<div class="sidebar-menu">
+					<center class="profile">
+						<img src="../images/logo vektor.png" alt="">
+					</center>
+					<li class="item" id="profile">
+						<a href="#profile" class="menu-btn">
+							<i class='bx bxs-book-bookmark'></i><span style="font-weight: 700;">Vektor<i class="fas fa-chevron-down drop-down"></i></span>
+						</a>
+						<div class="sub-menu">
+							<a href="../Materi1/sub1.1.html"><i class='bx bx-bookmark' ></i><span>Perbedaan Skalar & Vektor</span></a>
+							<a href="../Materi1/sub2.html"><i class='bx bx-bookmark' ></i><span>Menulis & Menggambar Vektor</span></a>
+							<a href="../Materi1/sub3.html"><i class='bx bx-bookmark' ></i></i><span>Menyatakan suatu vektor</span></a>
+							<a href="../KUIS/kuis1.html"><i class='bx bxs-edit' ></i><span>Kuis 1</span></a>
+						</div>
+					</li>
+					<li class="item" id="messages">
+						<a href="#messages" class="menu-btn">
+							<i class='bx bx-math' ></i><span style="font-weight: 700;">Penjumlahan Vektor<i class="fas fa-chevron-down drop-down"></i></span>
+						</a>
+						<div class="sub-menu">
+							<a href="../Materi2/sub2.1.html"><i class='bx bx-bookmark' ></i><span>Metode Poligon</span></a>
+							<a href="../Materi2/sub2.2.html"><i class='bx bx-bookmark' ></i><span>Metode Jajar Genjang</span></a>
+							<a href="../Materi2/sub2.3.html"><i class='bx bx-bookmark' ></i><span>Metode grafis</span></a>
+							<a href="../Materi2/sub2.4.html"><i class='bx bx-bookmark' ></i><span>Metode Analitis</span></a>
+							<a href="../KUIS/kuis2.html"><i class='bx bxs-edit' ></i><span>Kuis 2</span></a>
+						</div>
+					</li>
+					<li class="item">
+						<a href="../KUIS/evaluasi.html" class="menu-btn">
+							<i class='bx bx-folder-open' ></i><span style="font-weight: 700;">Evaluasi</span>
+						</a>
+					</li>
+				</div>
+			</div>
+			<!--sidebar end-->
+			<!--main container start-->
+			<div class="main-container">
+				<!--JUDUL MATERI-->
+				<div class="card-header">A)	Penjumlahan Vektor dengan Metode Poligon</div>
+        		<div class="card-header-2">Tujuan Pembelajaran</div>
+        		<div class="content-card">
+           		<ul style="text-align:justify; line-height: 1.5em;">
+                	<li>Siswa dapat melukis penjumlahan 
+					vektor dengan metode poligon</li>
+					<li>Siswa dapat menemukan sifat penjumlahan dan selisih vektor</li>
+            	</ul>
+        		</div>
+			</br>
+				<div class="content-card">
+					<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+						Metode poligon disebut juga metode segi banyak. Cara melukis penjumlahan dua vektor 
+						atau lebih dengan efisien adalah melalui metode poligon. Pertama, 
+						lukis salah satu vektor secara berurutan, lukis vektor kedua 
+						dengan titik tangkapnya di ujung vektor pertama, dan lukis vektor ketiga 
+						dengan titik tangkapnya di ujung vektor kedua, demikian seterusnya 
+						sampai semua vektor sudah dilukis. Jumlah semua vektor (atau vektor resultan) 
+						adalah vektor yang berararh dari titik tangkap vektor pertama menuju ke ujung vektor terakhir. 
+						Pada <b>Gambar 5</b> ditunjukan penjumlahan vektor $F_1+F_2$ dan 
+						pada <b>Gambar 6</b> ditunjukan vektor resultan <b>R = A + B + C</b>.
+					</p>
+						<!--Konten Foto-->
+						<div class="foto2">
+							<div class="responsive2" >
+								<div class="gallery2" >
+								  <a target="_blank" href="../images/1.5.png">
+									<img src="../images/1.5.png">
+								  </a>
+								  <div class="desc"><b>Gambar 5</b> Melukis penjumlahan dua vektor dengan metode polygon.
+									$(a)$ Dua vektor gaya yang berbeda arah $(b)$ Melukis vektor resultan gaya $F_1 + F_2$
+									</div>
+								</div>
+							</div>
+								<div class="clearfix"></div>
+						</div>
+						<!--Konten Foto End-->
+						<!--Konten Foto 2-->
+						<div class="foto2">
+							<div class="responsive2" >
+								<div class="gallery2" >
+								  <a target="_blank" href="../images/1.6.png">
+									<img src="../images/1.6.png">
+								  </a>
+								  <div class="desc"><b>Gambar 6</b> Melukis vekotr resultan dari tiga vektor 
+									dengan metode polygon. $(a)$ Tiga vektor perpindahan dengan arah yang berbeda. 
+									$(b)$ Melukis vektor resultan perpindahan $R = A + B + C$ dengan vektor $A$ dilukis terlebih dahulu
+									</div>
+								</div>
+							</div>
+								<div class="clearfix"></div>
+						</div>
+						<!--Konten Foto End 2-->
+						<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+							Cara melukis selisih vektor pada prinsipnya sama seperti cara melukis penjumlahan.
+							 Misalnya, selisih dua vektor A dan B ditulis $C = A – B$ dapat kita tuliskan 
+							 sebagai $C = A + (-B)$. Artinya, selisih antara vektor A dan B sama saja 
+							 dengan penjumlahan vektor arah A dan –B dengan vektor –B adalah vektor yang 
+							 berlawanan arah dengan vektor B. Jadi, untuk melukis $C = A-B$, pertama kita lukis 
+							 dahulu vektor A, kemudian lukis vektor –B (vektor yang diperoleh 
+							 dengan membalik arah vektor B) dengan pangkalnya berada di ujung vektor A. 
+							 Selisih vektor $C = A-B$ adalah anak panah 
+							 yang menghubungkan pangkal A ke ujung –B, seperti pada <b>Gambar 7</b>.
+							<!--Konten Foto-->
+							 <div class="foto">
+								 <div class="responsive" >
+									 <div class="gallery" >
+									   <a target="_blank" href="../images/1.7.png">
+										 <img src="../images/1.7.png">
+									   </a>
+									   <div class="desc"><b>Gambar 7</b> Selisih antara vektor 
+										$A$ dan $B$, yaitu $C = A – B$</div>
+									 </div>
+								 </div>
+									 <div class="clearfix"></div>
+							 </div>
+							<!--Konten Foto End-->
+						</p>
+						<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+							Agar memahami lebih jelas mengenai 
+							penjumlahan vektor menggunakan metode poligon, silahkan simak video dibawah ini.
+						</p>
+						<div class="kotak">
+							<div class="box">
+							<input checked="checked" id="box1" name="box" type="radio"> 
+							<label for="box1">Contoh Soal</label>
+							<div class="content">
+								<p style="text-align:justify; line-height: 1.5em; ">Diberikan 3 biuah vektor 
+									a, b, c seperti gambar dibawah</p>
+									<br>
+									<img src="../images/Gambar 7.png" class="responsive_foto">
+								<p style="text-align:justify; line-height: 1.5em; ">Dengan Metode 
+									Poligon tunjukan:</p>
+								<ol type="i" style="text-align:justify; line-height: 1.5em; padding: 14px;">
+									<li>d = a + b + c </li>
+									<li>d = a + b - c </li>
+									<li>d = a - b + c </li>
+								</ol>
+								<p style="text-align:justify; line-height: 1.5em; ">Pembahasan:</p>
+								<p style="text-align:justify; line-height: 1.5em; ">Dengan Metode Poligon</p>
+								<ol type="i" style="text-align:justify; line-height: 1.5em; padding: 14px;">
+									<li>d = a + b + c 
+										<br>
+										<img src="../images/i.png" class="responsive_segi">
+									</li>
+									<li>d = a + b - c 
+										<br>
+										<img src="../images/ii.png" class="responsive_segi">
+									</li>
+									<li>d = a - b + c 
+										<br>
+										<img src="../images/iii.png" class="responsive_segi">
+									</li>
+								</ol>
+							</div>
+							<input id="box2" name="box" type="radio"> 
+							<label for="box2">Latihan</label>
+							<div class="content">
+								<p style="text-align:justify; line-height: 1.5em; ">Diberikan 3 buah vektor i, j, k, 
+									seperti gambar dibawah</p>
+									<br>
+									<img src="../images/Berlatih4.png" class="responsive_foto2">
+								<p style="text-align:justify; line-height: 1.5em; ">Tentukan penjumlahan vektor 
+									pada gambar-gambar dibawah ini dengan menggunakan metode poligon</p>
+								<ol type="a" style="text-align:justify; line-height: 1.5em; padding: 18px;">
+									<li>
+										<br>
+										<img src="../images/poligon l_a.png" class="responsive_segi">
+										&emsp;
+										<input type="text" name="" id="poliLa1"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responsePolila1"></b>
+										=
+										<input type="text" name="" id="poliLa2"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responsePolila2"></b>
+										+
+										<input type="text" name="" id="poliLa3"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responsePolila3"></b>
+										+
+										<input type="text" name="" id="poliLa4"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responsePolila4"></b>
+										<br>
+									</li>
+									<li>
+										<br>
+										<img src="../images/poligon l_b.png" class="responsive_segi">
+										&emsp;
+										<input type="text" name="" id="poliLb1"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responsePolilb1"></b>
+										=
+										<input type="text" name="" id="poliLb2"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responsePolilb2"></b>
+										-
+										<input type="text" name="" id="poliLb3"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responsePolilb3"></b>
+										+
+										<input type="text" name="" id="poliLb4"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responsePolilb4"></b>
+										<br>
+									</li>
+									<li>
+										<br>
+										<img src="../images/poligon l_c.png" class="responsive_segi">
+										&emsp;
+										<input type="text" name="" id="poliLc1"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responsePolilc1"></b>
+										=
+										<input type="text" name="" id="poliLc2"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responsePolilc2"></b>
+										+
+										<input type="text" name="" id="poliLc3"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responsePolilc3"></b>
+										-
+										<input type="text" name="" id="poliLc4"
+										style="
+										width: 55px; 
+										height: 35px; 
+										border-width: 3px;
+										border-color: rgb(36, 112, 62);
+										">
+										<b id="responsePolilc4"></b>
+										<br>
+									</li>
+								</ol>
+								<script>
+									function kirim(){
+									//soal no.a
+									//soal no.a1
+									const poliLa1 = document.querySelector('#poliLa1')
+									const responsePolila1 = document.querySelector('#responsePolila1')
+									if (poliLa1.value =='l'){
+										responsePolila1.innerHTML = '&#10003;'
+										responsePolila1.style = 'color: green;'
+									}
+									else if (poliLa1.value ==''){
+										responsePolila1.innerHTML = '!'
+										responsePolila1.style = 'color: red;'
+									}
+									else{
+										responsePolila1.innerHTML = 'X'
+										responsePolila1.style = 'color: red;'
+									}
+									//soal no.a2
+									const poliLa2 = document.querySelector('#poliLa2')
+									const responsePolila2 = document.querySelector('#responsePolila2')
+									if (poliLa2.value =='-k'){
+										responsePolila2.innerHTML = '&#10003;'
+										responsePolila2.style = 'color: green;'
+									}
+									else if (poliLa2.value ==''){
+										responsePolila2.innerHTML = '!'
+										responsePolila2.style = 'color: red;'
+									}
+									else{
+										responsePolila2.innerHTML = 'X'
+										responsePolila2.style = 'color: red;'
+									}
+									//soal no.a3
+									const poliLa3 = document.querySelector('#poliLa3')
+									const responsePolila3 = document.querySelector('#responsePolila3')
+									if (poliLa3.value =='i'){
+										responsePolila3.innerHTML = '&#10003;'
+										responsePolila3.style = 'color: green;'
+									}
+									else if (poliLa3.value ==''){
+										responsePolila3.innerHTML = '!'
+										responsePolila3.style = 'color: red;'
+									}
+									else{
+										responsePolila3.innerHTML = 'X'
+										responsePolila3.style = 'color: red;'
+									}
+									//soal no.a4
+									const poliLa4 = document.querySelector('#poliLa4')
+									const responsePolila4 = document.querySelector('#responsePolila4')
+									if (poliLa4.value =='j'){
+										responsePolila4.innerHTML = '&#10003;'
+										responsePolila4.style = 'color: green;'
+									}
+									else if (poliLa4.value ==''){
+										responsePolila4.innerHTML = '!'
+										responsePolila4.style = 'color: red;'
+									}
+									else{
+										responsePolila4.innerHTML = 'X'
+										responsePolila4.style = 'color: red;'
+									}
+									//soal no.b
+									//soal no.b1
+									const poliLb1 = document.querySelector('#poliLb1')
+									const responsePolilb1 = document.querySelector('#responsePolilb1')
+									if (poliLb1.value =='l'){
+										responsePolilb1.innerHTML = '&#10003;'
+										responsePolilb1.style = 'color: green;'
+									}
+									else if (poliLb1.value ==''){
+										responsePolilb1.innerHTML = '!'
+										responsePolilb1.style = 'color: red;'
+									}
+									else{
+										responsePolilb1.innerHTML = 'X'
+										responsePolilb1.style = 'color: red;'
+									}
+									//soal no.b2
+									const poliLb2 = document.querySelector('#poliLb2')
+									const responsePolilb2 = document.querySelector('#responsePolilb2')
+									if (poliLb2.value =='k'){
+										responsePolilb2.innerHTML = '&#10003;'
+										responsePolilb2.style = 'color: green;'
+									}
+									else if (poliLb2.value ==''){
+										responsePolilb2.innerHTML = '!'
+										responsePolilb2.style = 'color: red;'
+									}
+									else{
+										responsePolilb2.innerHTML = 'X'
+										responsePolilb2.style = 'color: red;'
+									}
+									//soal no.b3
+									const poliLb3 = document.querySelector('#poliLb3')
+									const responsePolilb3 = document.querySelector('#responsePolilb3')
+									if (poliLb3.value =='i'){
+										responsePolilb3.innerHTML = '&#10003;'
+										responsePolilb3.style = 'color: green;'
+									}
+									else if (poliLb3.value ==''){
+										responsePolilb3.innerHTML = '!'
+										responsePolilb3.style = 'color: red;'
+									}
+									else{
+										responsePolilb3.innerHTML = 'X'
+										responsePolilb3.style = 'color: red;'
+									}
+									//soal no.b4
+									const poliLb4 = document.querySelector('#poliLb4')
+									const responsePolilb4 = document.querySelector('#responsePolilb4')
+									if (poliLb4.value =='j'){
+										responsePolilb4.innerHTML = '&#10003;'
+										responsePolilb4.style = 'color: green;'
+									}
+									else if (poliLb4.value ==''){
+										responsePolilb4.innerHTML = '!'
+										responsePolilb4.style = 'color: red;'
+									}
+									else{
+										responsePolilb4.innerHTML = 'X'
+										responsePolilb4.style = 'color: red;'
+									}
+									//soal no.c
+									//soal no.c1
+									const poliLc1 = document.querySelector('#poliLc1')
+									const responsePolilc1 = document.querySelector('#responsePolilc1')
+									if (poliLc1.value =='l'){
+										responsePolilc1.innerHTML = '&#10003;'
+										responsePolilc1.style = 'color: green;'
+									}
+									else if (poliLc1.value ==''){
+										responsePolilc1.innerHTML = '!'
+										responsePolilc1.style = 'color: red;'
+									}
+									else{
+										responsePolilc1.innerHTML = 'X'
+										responsePolilc1.style = 'color: red;'
+									}
+									//soal no.c2
+									const poliLc2 = document.querySelector('#poliLc2')
+									const responsePolilc2 = document.querySelector('#responsePolilc2')
+									if (poliLc2.value =='j'){
+										responsePolilc2.innerHTML = '&#10003;'
+										responsePolilc2.style = 'color: green;'
+									}
+									else if (poliLc2.value ==''){
+										responsePolilc2.innerHTML = '!'
+										responsePolilc2.style = 'color: red;'
+									}
+									else{
+										responsePolilc2.innerHTML = 'X'
+										responsePolilc2.style = 'color: red;'
+									}
+									//soal no.c3
+									const poliLc3 = document.querySelector('#poliLc3')
+									const responsePolilc3 = document.querySelector('#responsePolilc3')
+									if (poliLc3.value =='i'){
+										responsePolilc3.innerHTML = '&#10003;'
+										responsePolilc3.style = 'color: green;'
+									}
+									else if (poliLc3.value ==''){
+										responsePolilc3.innerHTML = '!'
+										responsePolilc3.style = 'color: red;'
+									}
+									else{
+										responsePolilc3.innerHTML = 'X'
+										responsePolilc3.style = 'color: red;'
+									}
+									//soal no.c4
+									const poliLc4 = document.querySelector('#poliLc4')
+									const responsePolilc4 = document.querySelector('#responsePolilc4')
+									if (poliLc4.value =='k'){
+										responsePolilc4.innerHTML = '&#10003;'
+										responsePolilc4.style = 'color: green;'
+									}
+									else if (poliLc4.value ==''){
+										responsePolilc4.innerHTML = '!'
+										responsePolilc4.style = 'color: red;'
+									}
+									else{
+										responsePolilc4.innerHTML = 'X'
+										responsePolilc4.style = 'color: red;'
+									}
+								}
+								</script>
+								<br>
+								<br><button onclick="kirim()">Cek Jawaban</button>
+								<br>
+
+							</div>
+						</div>
+						  </div>
+				</div>
+			<br>
+			<!-- CODINGAN selanjutnya-->
+            <div class="nav_bawah">
+                <center>
+                    <a href="#" class="tombol" style="color: white;"><i
+                            class="fas fa-angle-double-left"></i>
+                        Sebelumnya</a>
+
+                    <a href="../Materi2/sub2.2.html" class="tombol" style="color: white;">Selanjutnya
+                        <i class="fas fa-angle-double-right"></i></a>
+                </center>
+            </div>
+			<!--main container end-->
+		<!--wrapper end-->
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$(".sidebar-btn").click(function(){
+				$(".wrapper").toggleClass("collapse");
+			});
+		});
+		</script>
+
+	</body>
+</html>

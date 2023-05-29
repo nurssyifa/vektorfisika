@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Menulis & menggambar vektor</title>
+    	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   		<link rel="stylesheet" href="../css/materi_style.css">
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+		<script>
+			MathJax = {
+			  tex: {
+				inlineMath: [['$', '$'], ['\\(', '\\)']]
+			  }
+			};
+		</script>
+		<script id="MathJax-script" async
+			  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+		</script>
+	</head>
+	<body>
+
+		<!--wrapper start-->
+		<div class="wrapper">
+			<!--header menu start-->
+			<div class="header">
+				<div class="header-menu">
+					<div class="title">VEKTOR</div>
+					<div class="sidebar-btn">
+						<i class="fas fa-bars"></i>
+					</div>
+					<ul>
+						<li><a href="../home.html"><i class='bx bx-home'></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<!--header menu end-->
+			<!--sidebar start-->
+			<div class="sidebar">
+				<div class="sidebar-menu">
+					<center class="profile">
+						<img src="../images/logo vektor.png" alt="">
+					</center>
+					<li class="item" id="profile">
+						<a href="#profile" class="menu-btn">
+							<i class='bx bxs-book-bookmark'></i><span style="font-weight: 700;">Vektor<i class="fas fa-chevron-down drop-down"></i></span>
+						</a>
+						<div class="sub-menu">
+							<a href="../Materi1/sub1.1.html"><i class='bx bx-bookmark' ></i><span>Perbedaan Skalar & Vektor</span></a>
+							<a href="../Materi1/sub2.html"><i class='bx bx-bookmark' ></i><span>Menulis & Menggambar Vektor</span></a>
+							<a href="../Materi1/sub3.html"><i class='bx bx-bookmark' ></i></i><span>Menyatakan suatu vektor</span></a>
+							<a href="../KUIS/kuis1.html"><i class='bx bxs-edit' ></i><span>Kuis 1</span></a>
+						</div>
+					</li>
+					<li class="item" id="messages">
+						<a href="#messages" class="menu-btn">
+							<i class='bx bx-math' ></i><span style="font-weight: 700;">Penjumlahan Vektor<i class="fas fa-chevron-down drop-down"></i></span>
+						</a>
+						<div class="sub-menu">
+							<a href="../Materi2/sub2.1.html"><i class='bx bx-bookmark' ></i><span>Metode Poligon</span></a>
+							<a href="../Materi2/sub2.2.html"><i class='bx bx-bookmark' ></i><span>Metode Jajar Genjang</span></a>
+							<a href="../Materi2/sub2.3.html"><i class='bx bx-bookmark' ></i><span>Metode grafis</span></a>
+							<a href="../Materi2/sub2.4.html"><i class='bx bx-bookmark' ></i><span>Metode Analitis</span></a>
+							<a href="../KUIS/kuis2.html"><i class='bx bxs-edit' ></i><span>Kuis 2</span></a>
+						</div>
+					</li>
+					<li class="item">
+						<a href="../KUIS/evaluasi.html" class="menu-btn">
+							<i class='bx bx-folder-open' ></i><span style="font-weight: 700;">Evaluasi</span>
+						</a>
+					</li>
+				</div>
+			</div>
+			<!--sidebar end-->
+			<!--main container start-->
+			<div class="main-container">
+				<!--JUDUL MATERI-->
+				<div class="card-header">B) Menulis & Menggambar Vektor</div>
+        		<div class="card-header-2">Tujuan Pembelajaran</div>
+        		<div class="content-card">
+           		<ul>
+                	<li>Siswa dapat menggambar vektor secara grafis.</li>
+            	</ul>
+        		</div>
+			</br>
+				<div class="content-card">
+					<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+						Notasi besaran vektor dapat berupa huruf kapital atau huruf kecil. Untuk tulisan tangan, 
+						notasi tersebut berupa huruf yang diberi tanda panah di atasnya, misalnya $\overrightarrow{A}$
+						atau $\overrightarrow{a}$
+						Untuk tulisan cetak atau halaman web, lambang vektor umumnya dicetak dengan huruf tebal, 
+						misalnya <b>A</b> atau <b>a</b>. Untuk besaran vektor biasanya dengan tulisan tangan 
+						ditulis dengan menggunakan tanda mutlak 
+						|$\overrightarrow{A}$| atau |$\overrightarrow{a}$|. Untuk buku cetak, 
+						besaran vekor dicetak dengan huruf miring misalnya <i>A</i> atau <i>a</i>.
+					</p>
+					<br>
+					<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+						Sebuah vektor digambarkan dengan sebuah anak panah yang terdiri atas pangkal dan ujung. 
+						Panjang anak panah menyatakan besar vektor dan arah anak panah (dari pangkal ke ujung) menyatakan arah vektor. 
+						Misalnya, Perhatikan <b>Gambar 1.1</b> berikut!. 
+					</p>
+					<br>
+					<!--Konten Foto-->
+					<div class="foto">
+					<div class="responsive" >
+						<div class="gallery" >
+						  <a target="_blank" href="../images/2.3.png">
+							<img src="../images/2.3.png">
+						  </a>
+						  <div class="desc"><b>Gambar 1</b> (a) Vektor C</div>
+						</div>
+					  </div>
+					<div class="responsive">
+						<div class="gallery">
+						  <a target="_blank" href="../images/2.3 (2).png">
+							<img src="../images/2.3 (2).png">
+						  </a>
+						  <div class="desc"><b>Gambar 1</b> (b) Vektor gaya F</div>
+						</div>
+					  </div>
+					  <div class="clearfix"></div>
+					</div>
+					  <br>
+					<!--Konten Foto End-->
+					<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+						Pada <b>Gambar 1</b> menunjukkan sebuah vektor C dengan titik tangkap (pangkal) A, ujungnya di titik B, 
+						arahnya dari A ke B, dan besar vektor diwakili panjang anak panah. Sedangkan <b>Gambar 1 (b)</b>, 
+						merupakan vektor yang menyatakan sebuah gaya F sebesar 3 N dan memiliki arah ke kiri. Dua buah vektor 
+						dikatakan sama apabila besar dan arahnya sama. 
+						Sebuah vektor dikatakan negatif apabila mempunyai arah yang berlawanan dengan vektor yang dijadikan acuan.
+				</div>
+			<br>
+			<!---------------KONTEN LATIHAN--------------->
+			<div class="kotak">
+				<div class="box">
+				<input checked="checked" id="box1" name="box" type="radio"> 
+				<label for="box1">Latihan</label>
+				<div class="content">
+				<!---------------ISI LATIHAN---------------->
+				<label for="" style="text-align:justify; line-height: 1.5em; padding: 32px;">
+				1. Coba kalian identifikasi pernyataan dibawah ini, 
+				yang manakah pernyataan yang benar mengenai penulisan lambang vektor . . .
+				<br>
+				<b style="color: rgb(82 99 99);">*klik pada salah satu pilihan jawaban</b>
+				<br>
+				$\hspace{0.3cm}$<input type="checkbox" name="numb1" id="numb1a"> 
+				Untuk buku cetakan, lambang vektor umumnya dicetak 
+				dengan huruf tebal, misalnya <b>A</b> atau <b>a</b>
+				<br>
+				$\hspace{0.3cm}$<input type="checkbox" name="numb1" id="numb1b"> 
+				Untuk tulisan tangan, lambang vektor umumnya di tulis
+				dengan huruf tebal, misalnya <b>A</b> atau <b>a</b>
+				<br>
+				$\hspace{0.3cm}$<input type="checkbox" name="numb1" id="numb1c"> 
+				Untuk buku cetakan, lambang vektor umumnya dicetak 
+				dengan huruf yang  diberi tanda panah di atasnya, 
+				misalnya $\overrightarrow{A}$ atau $\overrightarrow{a}$
+				<br>
+				$\hspace{0.3cm}$<input type="checkbox" name="numb1" id="numb1d">
+				Untuk tulisan tangan, lambang vektor umumnya di tulis
+				dengan huruf tebal, misalnya menggunakan tanda mutlak 
+				|$\overrightarrow{A}$| atau |$\overrightarrow{a}$|
+				<div id="responseNumb1" style="padding: 4px;"></div>
+				2. Coba kalian identifikasi pernyataan dibawah ini, yang manakah 
+				pernyataan yang benar mengenai penulisan lambang vektor . . .
+				<br>
+				<b style="color: rgb(82 99 99);">*klik pada salah satu pilihan jawaban</b>
+				<br>
+				$\hspace{0.3cm}$<input type="checkbox" name="numb2" id="numb2a"> 
+				Untuk buku cetakan, lambang vektor umumnya dicetak dengan huruf tebal, 
+				misalnya <b>A</b> atau <b>a</b>
+				<br>
+				$\hspace{0.3cm}$<input type="checkbox" name="numb2" id="numb2b">
+				Untuk tulisan tangan, besaran vektor umumnya dicetak 
+				dengan huruf tebal, misalnya <b>A</b> atau <b>a</b>
+				<br>
+				$\hspace{0.3cm}$<input type="checkbox" name="numb2" id="numb2c"> 
+				Untuk buku cetak, besaran vektor dicetak dengan huruf 
+				miring misalnya <i>A</i> atau <i>a</i>.
+				<br>
+				$\hspace{0.3cm}$<input type="checkbox" name="numb2" id="numb2d">
+				Untuk buku cetak, besaran vektor dicetak dengan menggunakan tanda mutlak
+				
+				|$\overrightarrow{A}$| atau |$\overrightarrow{a}$|
+				<div id="responseNumb2" style="padding: 4px;"></div>
+				3. Panjang anak panah berfungsi untuk menyatakan . . .
+				<br>
+				<b style="color: rgb(82 99 99);">*isi kotak yang kosong dengan 
+					jawaban kalian</b>
+				<br>
+				jawab: <input type="text" name="" id="numb3">
+				<div id="responseNumb3"></div>
+				4. Arah anak panah (dari pangkal ke ujung) berfungsi untuk menyatakan . . .
+				<br>
+				<b style="color: rgb(82 99 99);">*isi kotak yang kosong dengan 
+					jawaban kalian</b>
+				<br>
+				jawab: <input type="text" name="" id="numb4">
+				<div id="responseNumb4"></div>
+				<br>
+				<br>
+				<br>
+				<button onclick="kirim()">Cek Jawaban</button>
+				<script>
+					function kirim(){
+						//soal no.1
+						const numb1a = document.querySelector('#numb1a')
+						const numb1b = document.querySelector('#numb1b')
+						const numb1c = document.querySelector('#numb1c')
+						const numb1d = document.querySelector('#numb1d')
+						const responseNumb1 = document.querySelector('#responseNumb1')
+
+						let answerNumb1
+						if(numb1b.checked){
+							answerNumb1 = 'Jawaban kamu benar'
+							responseNumb1.style = 'color: green;'
+						}
+						else{
+							answerNumb1 = 'Jawaban kamu salah'
+							responseNumb1.style = 'color: red;'
+						}
+						responseNumb1.innerHTML = answerNumb1
+						//soal no.2
+						const numb2a = document.querySelector('#numb2a')
+						const numb2b = document.querySelector('#numb2b')
+						const numb2c = document.querySelector('#numb2c')
+						const numb2d = document.querySelector('#numb2d')
+						const responseNumb2 = document.querySelector('#responseNumb2')
+
+						let answerNumb2
+						if(numb2c.checked){
+							answerNumb2 = 'Jawaban kamu benar'
+							responseNumb2.style = 'color: green;'
+						}
+						else{
+							answerNumb2 = 'jawaban kamu salah'
+							responseNumb2.style = 'color: red;'
+						}
+						responseNumb2.innerHTML = answerNumb2
+						//soal no.3
+						const numb3 = document.querySelector('#numb3')
+						const responseNumb3 = document.querySelector('#responseNumb3')
+						if (numb3.value =='besar vektor'){
+							responseNumb3.innerHTML = 'jawaban kamu benar'
+							responseNumb3.style = 'color: green;'
+						}
+						else if (numb3.value ==''){
+							responseNumb3.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+							responseNumb3.style = 'color: white;'
+						}
+						else{
+							responseNumb3.innerHTML = 'jawaban kamu salah'
+							responseNumb3.style = 'color: red;'
+						}
+						//soal no.4
+						const numb4 = document.querySelector('#numb4')
+						const responseNumb4 = document.querySelector('#responseNumb4')
+						if (numb4.value =='arah vektor'){
+							responseNumb4.innerHTML = 'jawaban kamu benar'
+							responseNumb4.style = 'color: green;'
+						}
+						else if (numb4.value ==''){
+							responseNumb4.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+							responseNumb4.style = 'color: white;'
+						}
+						else{
+							responseNumb4.innerHTML = 'jawaban kamu salah'
+							responseNumb4.style = 'color: red;'
+						}
+
+					}
+				</script>
+				</label>
+				</div>
+			</div>
+			</div>
+	</div>
+			<!-- CODINGAN selanjutnya-->
+            <div class="nav_bawah">
+                <center>
+                    <a href="../Materi1/sub1.1.html" class="tombol" style="color: white;"><i
+                            class="fas fa-angle-double-left"></i>
+                        Sebelumnya</a>
+
+                    <a href="../Materi1/sub3.html" class="tombol" style="color: white;">Selanjutnya
+                        <i class="fas fa-angle-double-right"></i></a>
+                </center>
+            </div>
+			<!--main container end-->
+		<!--wrapper end-->
+		<!--js video-->
+		<script> 
+			var myVideo = document.getElementById("video"); 
+			
+			function playPause() { 
+			  if (myVideo.paused) 
+				myVideo.play(); 
+			  else 
+				myVideo.pause(); 
+			} 
+			
+			function makeBig() { 
+				myVideo.width = 560; 
+			} 
+			
+			function makeSmall() { 
+				myVideo.width = 320; 
+			} 
+			
+			function makeNormal() { 
+				myVideo.width = 420; 
+			} 
+			</script> 
+		<!--js video end-->
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$(".sidebar-btn").click(function(){
+				$(".wrapper").toggleClass("collapse");
+			});
+		});
+		</script>
+
+	</body>
+</html>

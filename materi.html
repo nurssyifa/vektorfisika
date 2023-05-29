@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Materi</title>
+    	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   		<link rel="stylesheet" href="css/materi_style.css">
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+	</head>
+	<body>
+
+		<!--wrapper start-->
+		<div class="wrapper">
+			<!--header menu start-->
+			<div class="header">
+				<div class="header-menu">
+					<div class="title">VEKTOR</div>
+					<div class="sidebar-btn">
+						<i class="fas fa-bars"></i>
+					</div>
+					<ul>
+						<li><a href="home.html"><i class='bx bx-home'></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<!--header menu end-->
+			<!--sidebar start-->
+			<div class="sidebar">
+				<div class="sidebar-menu">
+					<center class="profile">
+						<img src="images/logo vektor.png" alt="">
+					</center>
+					<li class="item" id="profile">
+						<a href="#profile" class="menu-btn">
+							<i class='bx bxs-book-bookmark'></i><span style="font-weight: 700;">Vektor<i class="fas fa-chevron-down drop-down"></i></span>
+						</a>
+						<div class="sub-menu">
+							<a href="Materi1/sub1.1.html"><i class='bx bx-bookmark' ></i><span>Perbedaan Skalar & Vektor</span></a>
+							<a href="Materi1/sub2.html"><i class='bx bx-bookmark' ></i><span>Menulis & Menggambar Vektor</span></a>
+							<a href="Materi1/sub3.html"><i class='bx bx-bookmark' ></i></i><span>Menyatakan suatu vektor</span></a>
+							<a href="KUIS/kuis1.html"><i class='bx bxs-edit' ></i><span>Kuis 1</span></a>
+						</div>
+					</li>
+					<li class="item" id="messages">
+						<a href="#messages" class="menu-btn">
+							<i class='bx bx-math' ></i><span style="font-weight: 700;">Penjumlahan Vektor<i class="fas fa-chevron-down drop-down"></i></span>
+						</a>
+						<div class="sub-menu">
+							<a class="nav-link" onclick="materi2()"><i class='bx bx-bookmark' ></i><span>Metode Poligon</span></a>
+							<a class="nav-link" onclick="materi3()"><i class='bx bx-bookmark' ></i><span>Metode Jajar Genjang</span></a>
+							<a href="Materi2/sub2.3.html"><i class='bx bx-bookmark' ></i><span>Metode grafis</span></a>
+							<a href="Materi2/sub2.4.html"><i class='bx bx-bookmark' ></i><span>Metode Analitis</span></a>
+							<a href="KUIS/kuis2.html"><i class='bx bxs-edit' ></i><span>Kuis 2</span></a>
+						</div>
+					</li>
+					<li class="item">
+						<a href="KUIS/evaluasi.html" class="menu-btn">
+							<i class='bx bx-folder-open' ></i><span style="font-weight: 700;">Evaluasi</span>
+						</a>
+					</li>
+				</div>
+			</div>
+			<!--sidebar end-->
+			<!--main container start-->
+			<div class="main-container">
+				<!--JUDUL MATERI-->
+				<center>
+					<p style="font-size: 21px;"> " Pengantar "</p>
+				</center>
+			</br>
+				<div class="content-card">
+					<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+						Pernahkan kalian menyebrangi sungai untuk menggunakan perahu dari satu 
+						dermaga ke dermaga lainnya? Ketika ingin menyeberangi sungai kalian harus 
+						memperkirakan arah perahu agar dapat mencapai tujuan yang diinginkan. 
+						Mengapa hal tersebut dapat terjadi? Semua yang Anda alami tersebut 
+						berhubungan dengan vektor. Untuk lebih memahami apa itu vektor, 
+						coba perhatikan video animasi di bawah ini.
+					</p>
+					<br>
+					<div style="text-align:center" > 
+						<button onclick="playPause()">Play/Pause</button> 
+						<button onclick="makeBig()">Big</button>
+						<button onclick="makeSmall()">Small</button>
+						<button onclick="makeNormal()">Normal</button>
+						<br><br>
+						<video id="video" width="420">
+						  <source src="video/vektor1.mp4" type="video/mp4">
+						</video>
+					</div>
+					<br>
+					<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+						Setelah menyaksikan video animasi di atas, sudah terbayangkan apa itu vektor 
+						dan bagaimana contohnya dalam kehidupan sehari-hari. 
+						Selanjutnya kita akan mempelajari perbedaan skalar dan vektor.
+					</p>
+			</div>
+			<br>
+			<!-- CODINGAN selanjutnya-->
+            <div class="nav_bawah">
+
+                <center> <a href="Materi1/sub1.1.html" class="tombol" style="color: white;">Selanjutnya <i
+                            class="fas fa-angle-double-right"></i></a> </center>
+
+            </div>
+			<!--main container end-->
+		<!--wrapper end-->
+		<!--js video-->
+		<script> 
+			var myVideo = document.getElementById("video"); 
+			
+			function playPause() { 
+			  if (myVideo.paused) 
+				myVideo.play(); 
+			  else 
+				myVideo.pause(); 
+			} 
+			
+			function makeBig() { 
+				myVideo.width = 560; 
+			} 
+			
+			function makeSmall() { 
+				myVideo.width = 320; 
+			} 
+			
+			function makeNormal() { 
+				myVideo.width = 420; 
+			} 
+			</script> 
+		<!--js video end-->
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$(".sidebar-btn").click(function(){
+				$(".wrapper").toggleClass("collapse");
+			});
+		});
+		</script>
+		<script src="tutorial1.js" type="module">
+		
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Menyatakan Suatu Vektor</title>
+    	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   		<link rel="stylesheet" href="../css/materi_style.css">
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+		<script>
+			MathJax = {
+			  tex: {
+				inlineMath: [['$', '$'], ['\\(', '\\)']]
+			  }
+			};
+			</script>
+			<script id="MathJax-script" async
+			  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+			</script>
+	</head>
+	<body>
+
+		<!--wrapper start-->
+		<div class="wrapper">
+			<!--header menu start-->
+			<div class="header">
+				<div class="header-menu">
+					<div class="title">VEKTOR</div>
+					<div class="sidebar-btn">
+						<i class="fas fa-bars"></i>
+					</div>
+					<ul>
+						<li><a href="../home.html"><i class='bx bx-home'></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<!--header menu end-->
+			<!--sidebar start-->
+			<div class="sidebar">
+				<div class="sidebar-menu">
+					<center class="profile">
+						<img src="../images/logo vektor.png" alt="">
+					</center>
+					<li class="item" id="profile">
+						<a href="#profile" class="menu-btn">
+							<i class='bx bxs-book-bookmark'></i><span style="font-weight: 700;">Vektor<i class="fas fa-chevron-down drop-down"></i></span>
+						</a>
+						<div class="sub-menu">
+							<a href="../Materi1/sub1.1.html"><i class='bx bx-bookmark' ></i><span>Perbedaan Skalar & Vektor</span></a>
+							<a href="../Materi1/sub2.html"><i class='bx bx-bookmark' ></i><span>Menulis & Menggambar Vektor</span></a>
+							<a href="../Materi1/sub3.html"><i class='bx bx-bookmark' ></i></i><span>Menyatakan suatu vektor</span></a>
+							<a href="../KUIS/kuis1.html"><i class='bx bxs-edit' ></i><span>Kuis 1</span></a>
+						</div>
+					</li>
+					<li class="item" id="messages">
+						<a href="#messages" class="menu-btn">
+							<i class='bx bx-math' ></i><span style="font-weight: 700;">Penjumlahan Vektor<i class="fas fa-chevron-down drop-down"></i></span>
+						</a>
+						<div class="sub-menu">
+							<a href="../Materi2/sub2.1.html"><i class='bx bx-bookmark' ></i><span>Metode Poligon</span></a>
+							<a href="../Materi2/sub2.2.html"><i class='bx bx-bookmark' ></i><span>Metode Jajar Genjang</span></a>
+							<a href="../Materi2/sub2.3.html"><i class='bx bx-bookmark' ></i><span>Metode grafis</span></a>
+							<a href="../Materi2/sub2.4.html"><i class='bx bx-bookmark' ></i><span>Metode Analitis</span></a>
+							<a href="../KUIS/kuis2.html"><i class='bx bxs-edit' ></i><span>Kuis 2</span></a>
+						</div>
+					</li>
+					<li class="item">
+						<a href="../KUIS/evaluasi.html" class="menu-btn">
+							<i class='bx bx-folder-open' ></i><span style="font-weight: 700;">Evaluasi</span>
+						</a>
+					</li>
+				</div>
+			</div>
+			<!--sidebar end-->
+			<!--main container start-->
+			<div class="main-container">
+				<!--JUDUL MATERI-->
+				<div class="card-header">C)	Menyatakan Suatu Vektor</div>
+        		<div class="card-header-2">Tujuan Pembelajaran</div>
+        		<div class="content-card">
+           		<ul>
+                	<li>Siswa dapat menyatakan suatu vektor dalam vektor-vektor satuan.</li>
+				</ul>
+        		</div>
+			</br>
+				<div class="content-card">
+					<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+						Dalam fisika, menyatakan suatu vektor dengan vektor-vektor satuan, dan vektor 
+						terletak pada bisang (dua demensi). Untuk menyatakan suatu vektor pada bidang digunakan 
+						sumbu Cartesius dengan sumbu mendatar adalah sumbu X dan sumbu vertical adalah sumbu Y. 
+						Vektor satuan dalam sumbu X diberi lambang <b>i</b> dan vektor satuan 
+						pada sumbu Y diberi lambang <b>j</b>. 
+						Perhatikan <b>i</b> dan <b>j</b>
+						merupakan dua vektor satuan yang saling tegak lurus dengan besar i = j = 1.
+					</p>
+					<br>
+					<!--Konten Foto-->
+					<div class="foto">
+						<div class="responsive" >
+							<div class="gallery" >
+							  <a target="_blank" href="../images/1.3 (2).png">
+								<img src="../images/1.3 (2).png">
+							  </a>
+							  <div class="desc"><b>Gambar 1.3</b> Vektor posisi dalam suatu bidang
+												dinyatakan  dalam vektor-vektor satuan i dan j</div>
+							</div>
+						</div>
+							<div class="clearfix"></div>
+					</div>
+					<!--Konten Foto End-->
+					<br>
+					<p style="text-indent: 35px;  text-align:justify; line-height: 1.5em; ">
+						Misal, dinyatakan vektor posisi dalam suatu bidang r yang dinyatakan 
+						dalam vektor-vektor satuan I dan j sebagai berikut 
+					</p>
+					<br>
+					<center>
+					<div class="rectangle">
+						<p style="text-align: center;">$r= r_xi &plus; r_yj$</p>
+					</div>
+				</center>
+					<br>
+					<p style="text-indent: 35px;  text-align:justify; line-height: 1.8em; ">
+						Ketika suatu vektor dinyatakan dalam vektor vektor satuan I dan j, 
+						maka kita dapat menghitung besar vektor 
+						tersebut dengan dalil pytahgoras dengan arahnya terhadap sumbu X seperti berikut.
+					</p>
+					<br>
+					<p style="text-indent: 35px;  text-align:justify; line-height: 1.8em; ">
+						Perhatikan lagi bahwa $r_x$  dan $r_y$ pada Gambar 1.2 adalah komponen-komponen vektor perpindahan r 
+						pada sumbu X dan sumbu Y. Jika besar vektor perpindahan dan sudut terhadap sumbu X (θ) diketahui, 
+						kita dapat memperoleh komponen-komponen $r_x$  dan $r_y$ sebagai berikut:
+					</p>
+					<br>
+						<center>
+							<div class="rectangle2">
+							<p style="text-align: center;">$cos\theta =\frac{r_x}{r} \Leftrightarrow  r_x = r cos \theta$</p>
+							<p style="text-align: center;">$cos\theta =\frac{r_y}{r} \Leftrightarrow  r_y = r sin \theta$</p>
+							</div>
+						</center>
+					<div class="kotak">
+						<div class="box">
+						<input checked="checked" id="box1" name="box" type="radio"> 
+						<label for="box1">Contoh Soal</label>
+						<div class="content">
+							<ul>
+								<li><b>Menentukan besar dan arah vektor</b></li>
+							</ul>
+							<ol type="1">
+								<li>Suatu benda berpindah 6 m ke timur, kemudian 8 m ke utara. 
+									Tetapkanlah arah timur sebagai sumbu X positif.
+									<ol type="a">
+										<li>Nyatakan vektor perpindahan ini dalam vektor-vektor satuan.</li>
+										<li>Tentukan besar dan arah vektor perpindahan</li>
+									</ol>
+									<!--Konten Foto-->
+									<div class="foto">
+										<div class="responsive" >
+										<div class="gallery" >
+										  <a target="_blank" href="../images/1.4.png">
+										<img src="../images/1.4.png">
+										  </a>
+										  <div class="desc"><b>Gambar 1.4</b> Sketsa soal</div>
+										</div>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+									  <br>
+									<!--Konten Foto End-->
+								</li>
+							</ol>
+							
+							<p style="text-align:justify; line-height: 2em; ">Penyelesaian:</p>
+							<ol type="a">
+								<li>Perpindahan pertama 6 m ke timur dinyatakan oleh 6i m. Perpindahan kedua 8 m ke utara dinyatakan oleh 8j m. 
+									Dengan demikian vektor perpindahan dari posisi awal ke posisi akhir dapat dinyatakan sebagai berikut:
+									<center>
+										<div class="rectangle">
+										<p style="text-align: center;">$r= (6i &plus; 8j) m$</p>
+										</div>
+									</center>
+								</li>
+								<br>
+								<li style="line-height: 2em;">Besar perpindahan dapat dihitung sebagai berikut.
+									<p>$r= \sqrt{r_x^2+ry^2}$</p>
+									<p>$&ensp;= \sqrt{(6)^2+(8)^2}$</p>
+									<p>$&ensp;= 10m$</p>
+									Arah perpindahan dapat dihitung sebagai berikut
+									<p>$tan \theta =\frac{r_y}{r_x}$</p>
+									<p>$&ensp;&ensp;&ensp;&ensp;=\frac{8}{6} = \frac{4}{3}$</p>
+									<p>$&ensp;&ensp;&ensp; \theta= 53^0$</p>
+									Besar perpindahan adalah 10 m dan arahnya membentuk $53^0$ terhadap sumbu X positif
+								</li>
+							</ol>
+							<ul>
+								<li><b>Menentukan komponen-komponen suatu vektor</b></li>
+							</ul>
+							<ol type="1" start="2">
+								<li>Tentukan komponen-komponen gaya 
+									pada sumbu X dan sumbu Y, kemudian nyatakan vektor-vektor 
+									gaya tersebut dalam vektor-vektor satuan, untuk kasus-kasus berikut.
+									<ol type="a">
+										<li>Gaya 20 N berarah $30^0$ ke utara dari timur.</li>
+										<li>Gaya 40 N berarah $53^0$  ke utara dari barat.</li>
+									</ol>
+								</li>
+							</ol>
+							<p style="text-align:justify; line-height: 1.5em; ">Penyelesaian:</p>
+							<br>
+							<div class="card-header-4" style="padding: 5px;">Petunjuk 
+							menggambar sketsa soal</div>
+        					<div class="content-card" style="text-align:justify;">
+           						<ol type="1">
+									<li>Tekan untuk menggambar titik koordinat</li>
+									<li>Tekan  , lalu pilih  untuk menggambar ruas garis 
+										yang mehubungkan antar titik koordinat</li>
+									<li>
+										Tekan  , lalu pilih  membentuk sudut yang diinginkan.
+									</li>
+									<li>
+										Untuk lebih jelasnya simak videk dibawah!
+									</li>
+								</ol>
+        					</div>
+							<ol type="a">
+									<!--Konten Foto-->
+									<div class="foto">
+										<div class="responsive" >
+										<div class="gallery" >
+										  <a target="_blank" href="../images/4(a).png">
+										<img src="../images/4(a).png">
+										  </a>
+										  <div class="desc"><b>(a)</b></div>
+										</div>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+									  <br>
+									<!--Konten Foto End-->
+									<li>
+									Gaya F = 20 N berarah $30^0$ ke utara dari timur 
+									ditunjukan pada <b>Gambar 4 (a).</b>
+									<br>
+									$F_x = 20\hspace{0.2cm}cos\hspace{0.2cm}30^0i$
+									<br>
+									$\hspace{0.6cm}=20(\frac{1}{2} \sqrt{3})i$
+									<br>
+									$F_x= 10 \sqrt{3i} N$
+									<br>
+									<br>
+									$F_y = 20\hspace{0.2cm}sin\hspace{0.2cm}30^0j$
+									<br>
+									$\hspace{0.6cm}=20(\frac{1}{2})j$
+									<br>
+									$F_y= 10j \hspace{0.2cm} N$
+									<br>
+									Vektor gaya $ F= (10\sqrt{3i} + j) N$
+								</li>
+									<!--Konten Foto-->
+									<div class="foto">
+										<div class="responsive" >
+										<div class="gallery" >
+										  <a target="_blank" href="../images/4(b).png">
+										<img src="../images/4(b).png">
+										  </a>
+										  <div class="desc"><b>Gambar.4(b)</b> Sketsa soal</div>
+										</div>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+									  <br>
+									<!--Konten Foto End-->
+								<li>
+									Gaya F = 40 N berarah $53^0$ ke utara 
+									dari barat ditunjukan pada <b>Gambar 4 (b).</b>
+									<br>
+									$F_x = 40\hspace{0.2cm}cos\hspace{0.2cm}40^0i$
+									<br>
+									$\hspace{0.6cm}= (0,6)(-i)$
+									<br>
+									$F_x= -24i N$
+									<br>
+									<br>
+									$F_y = 20\hspace{0.2cm}sin\hspace{0.2cm}30^0j$
+									<br>
+									$\hspace{0.6cm}=20(\frac{1}{2})j$
+									<br>
+									$F_y= 10j \hspace{0.2cm} N$
+									<br>
+									Vektor gaya $ F= (10\sqrt{3i} + j) N$
+								</li>
+							</ol>
+						</div>
+						<input id="box2" name="box" type="radio"> 
+						<label for="box2">Latihan</label>
+						<div class="content">
+							<p style="text-align:justify; line-height: 1.5em; ">
+						<ol type="1">
+								<li>Tentukan vektor resultan beserta besar dan arahnya 
+									untuk seorang siswa yang melakukan perjalanan 
+									100 m ke utara kemudian 200 m ke timur
+								<p><b>jawab:</b></p>
+								<p>dinyatakan dalam vektor satuan
+									<br>
+									<br>
+									r = (<input type="text" name="" id="ln1a" style="width: 50px;">
+									<b id="responseLn1a"></b> j + 
+									<input type="text" name="" id="ln1b" style="width: 50px;">
+									<b id="responseLn1b"></b> i) m
+									<br>
+									<br>
+									Besar perpindahan dapat dihitung sebagai berikut
+									<br>
+									<br>
+									r= $\sqrt{ry^2 + rx^2}$
+									<br>
+									<br>
+									$\hspace{0.2cm} = \sqrt{}$(<input type="text" name="" id="ln1c" style="width: 50px;">
+									<b id="responseLn1c"></b>)${^2}$ 
+									+ (<input type="text" name="" id="ln1d" style="width: 50px;">
+									<b id="responseLn1d"></b>)${^2}$
+									<br>
+									<br>
+									$\hspace{0.2cm} = $ <input type="text" name="" id="ln1e" style="width: 50px;">
+									<b id="responseLn1e"></b>
+									$\sqrt{}$ <input type="text" name="" id="ln1f" style="width: 25px;">
+									<b id="responseLn1f"></b> m
+									<br>
+									<br>
+									Arah perpindahan dapat dihitung sebagai berikut
+									<br>
+									<br>
+									tan $\theta = \frac{r_y}{r_x}$
+									<br>
+									<br>
+									$\hspace{1.068cm} = \frac{100j}{200i}=\frac{1}{2}$
+									<br>
+									<br>
+									$\hspace{0.8cm} \theta$= 
+									<input type="text" name="" id="ln1g" style="width: 40px;">
+									<b id="responseLn1g"></b>$^0$
+								</p>
+								</li> 
+								<li>Sebuah vektor gaya besarnya 100 N dengan arah membentuk sudut $60^0$ terhadap sumbu X. 
+									Tentukan besar komponen-komponennya pada sumbu X dan sumbu Y.
+									<br>
+									Komponen gaya pada sumbu X
+									<br>
+									<br>
+									$F_x = F\hspace{0.2cm}cos \theta$
+									<br>
+									<br>
+									$F_x$ = <input type="text" name="" id="ln2a" style="width: 40px;">
+									<b id="responseLn2a"></b> $\hspace{0.2cm}cos \hspace{0.2cm}$
+									<input type="text" name="" id="ln2b" style="width: 40px;">
+									<b id="responseLn2b"></b>
+									<br>
+									<br>
+									$F_x$ = <input type="text" name="" id="ln2c" style="width: 40px;">
+									<b id="responseLn2c"></b>
+									$\times \frac{1}{2}$
+									<br>
+									<br>
+									$F_x$= <input type="text" name="" id="ln2d" style="width: 40px;">
+									<b id="responseLn2d"></b>N
+									<br>
+									<br>
+									Komponen gaya pada sumbu Y
+									<br>
+									<br>
+									$F_y = F sin \theta$
+									<br>
+									<br>
+									$F_y$= <input type="text" name="" id="ln2e" style="width: 40px;">
+									<b id="responseLn2e"></b> 
+									$sin$<input type="text" name="" id="ln2f" style="width: 40px;">
+									<b id="responseLn2f"></b>
+									<br>
+									<br>
+									$F_y$ = <input type="text" name="" id="ln2g" style="width: 40px;">
+									<b id="responseLn2g"></b>
+									$\times \frac{1}{2} \sqrt{}$
+									<input type="text" name="" id="ln2h" style="width: 40px;">
+									<b id="responseLn2h"></b>
+									<br>
+									<br>
+									$F_y$ = <input type="text" name="" id="ln2i" style="width: 40px;">
+									<b id="responseLn2i"></b> $\sqrt{}$
+									<input type="text" name="" id="ln2j" style="width: 40px;">
+									<b id="responseLn2j"></b> N
+									<br>
+									<br>
+									Jadi, besarnya gaya $F_x=$ 
+									<input type="text" name="" id="ln2k" style="width: 40px;">
+									<b id="responseLn2k"></b>N dan 
+									$F_y$ = <input type="text" name="" id="ln2m" style="width: 40px;">
+									<b id="responseLn2m"></b>$\sqrt{}$ <input type="text" name="" id="ln2l" style="width: 40px;">
+									<b id="responseLn2l"></b>N
+								</li> 
+						</ol>
+							</p>
+						<script>
+							function kirim(){
+							//soal no.1
+							//soal no.1a
+							const ln1a = document.querySelector('#ln1a')
+							const responseLn1a = document.querySelector('#responseLn1a')
+							if (ln1a.value =='100'){
+								responseLn1a.innerHTML = '&#10003;'
+								responseLn1a.style = 'color: green;'
+							}
+							else if (ln1a.value ==''){
+								responseLn1a.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+								responseLn1a.style = 'color: red;'
+							}
+							else{
+								responseLn1a.innerHTML = 'X'
+								responseLn1a.style = 'color: red;'
+							}
+							//soal no.1b
+							const ln1b = document.querySelector('#ln1b')
+							const responseLn1b = document.querySelector('#responseLn1b')
+							if (ln1b.value =='200'){
+								responseLn1b.innerHTML = '&#10003;'
+								responseLn1b.style = 'color: green;'
+							}
+							else if (ln1b.value ==''){
+								responseLn1b.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+								responseLn1b.style = 'color: red;'
+							}
+							else{
+								responseLn1b.innerHTML = 'X'
+								responseLn1b.style = 'color: red;'
+							}
+							//soal no.1c
+							const ln1c = document.querySelector('#ln1c')
+							const responseLn1c = document.querySelector('#responseLn1c')
+							if (ln1c.value =='100'){
+								responseLn1c.innerHTML = '&#10003;'
+								responseLn1c.style = 'color: green;'
+							}
+							else if (ln1c.value ==''){
+								responseLn1c.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+								responseLn1c.style = 'color: red;'
+							}
+							else{
+								responseLn1c.innerHTML = 'X'
+								responseLn1c.style = 'color: red;'
+							}
+							//soal no.1d
+							const ln1d = document.querySelector('#ln1d')
+							const responseLn1d = document.querySelector('#responseLn1d')
+							if (ln1d.value =='200'){
+								responseLn1d.innerHTML = '&#10003;'
+								responseLn1d.style = 'color: green;'
+							}
+							else if (ln1d.value ==''){
+								responseLn1d.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+								responseLn1d.style = 'color: red;'
+							}
+							else{
+								responseLn1d.innerHTML = 'X'
+								responseLn1d.style = 'color: red;'
+							}
+							//soal no.1e
+							const ln1e = document.querySelector('#ln1e')
+							const responseLn1e = document.querySelector('#responseLn1e')
+							if (ln1e.value =='100'){
+								responseLn1e.innerHTML = '&#10003;'
+								responseLn1e.style = 'color: green;'
+							}
+							else if (ln1e.value ==''){
+								responseLn1e.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+								responseLn1e.style = 'color: red;'
+							}
+							else{
+								responseLn1e.innerHTML = 'X'
+								responseLn1e.style = 'color: red;'
+							}
+							//soal no.1f
+							const ln1f = document.querySelector('#ln1f')
+							const responseLn1f = document.querySelector('#responseLn1f')
+							if (ln1f.value =='5'){
+								responseLn1f.innerHTML = '&#10003;'
+								responseLn1f.style = 'color: green;'
+							}
+							else if (ln1f.value ==''){
+								responseLn1f.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+								responseLn1f.style = 'color: red;'
+							}
+							else{
+								responseLn1f.innerHTML = 'X'
+								responseLn1f.style = 'color: red;'
+							}
+							//soal no.1g
+							const ln1g = document.querySelector('#ln1g')
+							const responseLn1g = document.querySelector('#responseLn1g')
+							if (ln1g.value =='26,6'){
+								responseLn1g.innerHTML = '&#10003;'
+								responseLn1g.style = 'color: green;'
+							}
+							else if (ln1g.value ==''){
+								responseLn1g.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+								responseLn1g.style = 'color: red;'
+							}
+							else{
+								responseLn1g.innerHTML = 'X'
+								responseLn1g.style = 'color: red;'
+							}
+							//soal no.2
+							//soal no.2a
+							const ln2a = document.querySelector('#ln2a')
+							const responseLn2a = document.querySelector('#responseLn2a')
+							if (ln2a.value =='100'){
+								responseLn2a.innerHTML = '&#10003;'
+								responseLn2a.style = 'color: green;'
+							}
+							else if (ln2a.value ==''){
+								responseLn2a.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+								responseLn2a.style = 'color: red;'
+							}
+							else{
+								responseLn2a.innerHTML = 'X'
+								responseLn2a.style = 'color: red;'
+							}
+							//soal no.2b
+							const ln2b = document.querySelector('#ln2b')
+							const responseLn2b = document.querySelector('#responseLn2b')
+							if (ln2b.value =='60'){
+								responseLn2b.innerHTML = '&#10003;'
+								responseLn2b.style = 'color: green;'
+							}
+							else if (ln2b.value ==''){
+								responseLn2b.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+								responseLn2b.style = 'color: red;'
+							}
+							else{
+								responseLn2b.innerHTML = 'X'
+								responseLn2b.style = 'color: red;'
+							}
+							//soal no.2c
+							const ln2c = document.querySelector('#ln2c')
+							const responseLn2c = document.querySelector('#responseLn2c')
+							if (ln2c.value =='100'){
+								responseLn2c.innerHTML = '&#10003;'
+								responseLn2c.style = 'color: green;'
+							}
+							else if (ln2c.value ==''){
+								responseLn2c.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+								responseLn2c.style = 'color: red;'
+							}
+							else{
+								responseLn2c.innerHTML = 'X'
+								responseLn2c.style = 'color: red;'
+							}
+							//soal no.2d
+							const ln2d = document.querySelector('#ln2d')
+							const responseLn2d = document.querySelector('#responseLn2d')
+							if (ln2d.value =='50'){
+								responseLn2d.innerHTML = '&#10003;'
+								responseLn2d.style = 'color: green;'
+							}
+							else if (ln2d.value ==''){
+								responseLn2d.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+								responseLn2d.style = 'color: red;'
+							}
+							else{
+								responseLn2d.innerHTML = 'X'
+								responseLn2d.style = 'color: red;'
+							}
+							//soal no.2e
+							const ln2e = document.querySelector('#ln2e')
+							const responseLn2e = document.querySelector('#responseLn2e')
+							if (ln2e.value =='100'){
+								responseLn2e.innerHTML = '&#10003;'
+								responseLn2e.style = 'color: green;'
+							}
+							else if (ln2e.value ==''){
+								responseLn2e.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+								responseLn2e.style = 'color: red;'
+							}
+							else{
+								responseLn2e.innerHTML = 'X'
+								responseLn2e.style = 'color: red;'
+							}
+							//soal no.2f
+							const ln2f = document.querySelector('#ln2f')
+							const responseLn2f = document.querySelector('#responseLn2f')
+							if (ln2f.value =='60'){
+								responseLn2f.innerHTML = '&#10003;'
+								responseLn2f.style = 'color: green;'
+							}
+							else if (ln2f.value ==''){
+								responseLn2f.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+								responseLn2f.style = 'color: red;'
+							}
+							else{
+								responseLn2f.innerHTML = 'X'
+								responseLn2f.style = 'color: red;'
+							}
+							//soal no.2g
+							const ln2g = document.querySelector('#ln2g')
+							const responseLn2g = document.querySelector('#responseLn2g')
+							if (ln2g.value =='100'){
+								responseLn2g.innerHTML = '&#10003;'
+								responseLn2g.style = 'color: green;'
+							}
+							else if (ln2g.value ==''){
+								responseLn2g.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+								responseLn2g.style = 'color: red;'
+							}
+							else{
+								responseLn2g.innerHTML = 'X'
+								responseLn2g.style = 'color: red;'
+							}
+							//soal no.2h
+							const ln2h = document.querySelector('#ln2h')
+							const responseLn2h = document.querySelector('#responseLn2h')
+							if (ln2h.value =='3'){
+								responseLn2h.innerHTML = '&#10003;'
+								responseLn2h.style = 'color: green;'
+							}
+							else if (ln2h.value ==''){
+								responseLn2h.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+								responseLn2h.style = 'color: red;'
+							}
+							else{
+								responseLn2h.innerHTML = 'X'
+								responseLn2h.style = 'color: red;'
+							}
+							//soal no.2i
+							const ln2i = document.querySelector('#ln2i')
+							const responseLn2i = document.querySelector('#responseLn2i')
+							if (ln2i.value =='50'){
+								responseLn2i.innerHTML = '&#10003;'
+								responseLn2i.style = 'color: green;'
+							}
+							else if (ln2i.value ==''){
+								responseLn2i.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+								responseLn2i.style = 'color: red;'
+							}
+							else{
+								responseLn2i.innerHTML = 'X'
+								responseLn2i.style = 'color: red;'
+							}
+							//soal no.2j
+							const ln2j = document.querySelector('#ln2j')
+							const responseLn2j = document.querySelector('#responseLn2j')
+							if (ln2f.value =='3'){
+								responseLn2j.innerHTML = '&#10003;'
+								responseLn2j.style = 'color: green;'
+							}
+							else if (ln2j.value ==''){
+								responseLn2j.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+								responseLn2j.style = 'color: red;'
+							}
+							else{
+								responseLn2j.innerHTML = 'X'
+								responseLn2j.style = 'color: red;'
+							}
+							//soal no.2k
+							const ln2k = document.querySelector('#ln2k')
+							const responseLn2k = document.querySelector('#responseLn2k')
+							if (ln2k.value =='50'){
+								responseLn2k.innerHTML = '&#10003;'
+								responseLn2k.style = 'color: green;'
+							}
+							else if (ln2k.value ==''){
+								responseLn2k.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+								responseLn2k.style = 'color: red;'
+							}
+							else{
+								responseLn2k.innerHTML = 'X'
+								responseLn2k.style = 'color: red;'
+							}
+							//soal no.2l
+							const ln2l = document.querySelector('#ln2l')
+							const responseLn2l = document.querySelector('#responseLn2l')
+							if (ln2l.value =='3'){
+								responseLn2l.innerHTML = '&#10003;'
+								responseLn2l.style = 'color: green;'
+							}
+							else if (ln2l.value ==''){
+								responseLn2l.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+								responseLn2l.style = 'color: red;'
+							}
+							else{
+								responseLn2l.innerHTML = 'X'
+								responseLn2l.style = 'color: red;'
+							}
+							//soal no.2m
+							const ln2m = document.querySelector('#ln2m')
+							const responseLn2m = document.querySelector('#responseLn2m')
+							if (ln2m.value =='50'){
+								responseLn2m.innerHTML = '&#10003;'
+								responseLn2m.style = 'color: green;'
+							}
+							else if (ln2m.value ==''){
+								responseLn2m.innerHTML = 'silahkan isi jawaban terlebih dahulu!'
+								responseLn2m.style = 'color: red;'
+							}
+							else{
+								responseLn2m.innerHTML = 'X'
+								responseLn2m.style = 'color: red;'
+							}
+						}
+						</script>
+							<br>
+							<br>
+							<br>
+							<button onclick="kirim()">Cek Jawaban</button>
+						</div>
+					</div>
+					  </div>
+				</div>
+			<br>
+			<!-- CODINGAN selanjutnya-->
+            <div class="nav_bawah">
+                <center>
+                    <a href="../Materi1/sub2.html" class="tombol" style="color: white;"><i
+                            class="fas fa-angle-double-left"></i>
+                        Sebelumnya</a>
+
+                    <a href="../KUIS/kuis1.html" class="tombol" style="color: white;">Selanjutnya
+                        <i class="fas fa-angle-double-right"></i></a>
+                </center>
+            </div>
+			<!--main container end-->
+		<!--wrapper end-->
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$(".sidebar-btn").click(function(){
+				$(".wrapper").toggleClass("collapse");
+			});
+		});
+		</script>
+
+	</body>
+</html>

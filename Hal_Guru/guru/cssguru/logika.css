@@ -1,0 +1,318 @@
+body,h1,h2,h3,h4,h5,h6 {
+	 font-family: Convergence;
+}
+
+body {
+	font-size:16px;
+	 
+}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/img/gambar.jpg");
+  min-height: 100%;
+
+}
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.w3-half img {
+	margin-bottom:-6px;
+	margin-top:16px;
+	opacity:0.8;
+	cursor:pointer
+}
+
+.w3-half img:hover{
+	opacity:1
+}
+
+.sidebar {
+	width: 300px;
+	font-weight:bold;
+}
+
+.w3-green w3-container w3-padding-32 {
+	clear: both;
+	position: relative;
+	height: 200px;
+	margin-top: -200px;
+}
+
+.info {
+	border : 3 px;
+	border-style: dashed;
+	border-color: #ff6f69;
+	background-color: green;
+	width: 50%;
+	text-align:center ;
+	margin: auto;
+}
+
+.ipa{
+	border : 3px;
+	border-style: dashed;
+	border-color: #ff6f69;
+	background-color: green;
+	width: 50%;
+	text-align:center ;
+	margin: auto;
+}
+
+.tujuan{
+	background-color: #dfff80;
+
+}
+
+.border{
+	border: 5px;
+	border-style: ridge;
+	border-color: #8bc34a;
+
+}
+
+.border1{
+	border: 3px;
+	border-style: dashed;
+	border-color: green;
+	width: 50%;
+
+}
+
+.border2{
+	border: 3px;
+	border-style: dashed;
+	border-color: green;
+	height: 30%;
+}
+
+.border3{
+	border: 3px;
+	border-style: dashed;
+	border-color: green;
+}
+
+.border4{
+	border: 3px;;
+	border-style: dashed;
+	border-color: green;
+}
+
+.border5{
+	border: 3px;
+	border-style: dashed;
+	border-color: green;
+	width: 90%;
+}
+
+.border6 {
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #46B29E;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+.border7 {
+  border: 3px;
+    border-style: dashed;
+    border-color: green;
+    width: 100%;
+}
+.border8 {
+  border: 3px;
+    border-style: dashed;
+    border-color: red;
+    width: 100%;
+}
+.border9 {
+  border: 3px;
+    border-style: dashed;
+    border-color: blue;
+    width: 100%;
+}
+.img1{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.table{
+	border:2px;
+	border-collapse:collapse;
+	border-color: green;
+	border-style: solid;
+}
+
+th,td{
+	padding: 20px;
+	text-align: center;
+}
+
+
+
+.container-akv {
+   background:#ccffcc;
+    border: 3px;
+    border-style: dashed;
+    border-color: #004d1a;
+    width: 100%;
+
+    }
+
+.pertanyaan {
+    font-family:"Poppins", sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+
+}
+
+.ket-jwbn {
+    color: red;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+
+
+.ol-akv {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+
+    color: black;
+    text-align: justify;
+}
+
+
+.ol-akvx {
+    margin-left: -15px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2em;
+    margin-bottom: px;
+    color: black;
+    text-align: justify;
+}
+
+.isi-akv {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2em;
+
+    color: black;
+    text-align: justify;
+}
+
+.ol-petunjuk {
+    margin-left: -23px;
+    font-family:"Poppins", sans-serif;
+    font-size: 1.02em;
+    font-weight: 300;
+
+    color: black;
+    text-align: justify;
+}
+
+.g-akv2 {
+    width: 25%;
+    margin-top: 40px;
+}
+
+.input-konv {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    width: 10%;
+    padding: 0px;
+    font-size: 15px;
+    text-indent: 0px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+#ket {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ket2 {
+    margin-bottom: 10px;
+}
+
+.ket-benar {
+    color: green;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.ket-salah {
+    color: red;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+
+
+.salah {
+    color: red;
+    font-size: 1.1em;
+}
+
+.benar {
+    color: green;
+    font-size: 1.1em;
+}
+
+.salah-s {
+    color: red;
+    font-size: 0.9em;
+}
+
+.benar-b {
+    color: green;
+    font-size: 0.9em;
+}
+
+.salah-b {
+    color: red;
+    font-weight: 600;
+}
+
+.benar-c {
+    color: green;
+    font-size: 0.8em;
+}
+
+.salah-c {
+    color: red;
+    font-size: 0.8em;
+}
+
+.salah-cn {
+    color: red;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.salah-tok {
+    color: red;
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.benar-b {
+    color: green;
+    font-weight: 600;
+}
+
+.nilai {
+    font-size: 1.1em;
+}

@@ -1,0 +1,90 @@
+.valign {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+  }
+  
+  .div2 {
+	  float: left;
+	  width: 100%;
+	  height: 30px;
+	  border: 1px solid black;
+	}
+  
+  .kontainer {
+	  overflow-x: scroll; /* showing scrollbars */
+	  overflow-y: hidden;
+  }
+  
+	.div1 {
+	  float: left;
+	  width: 100%;
+	  height: 30px;
+	}
+  
+  .menu{
+	display: inline-block;
+	transition: .3s;
+	cursor: pointer;
+  }
+  
+  .menu:hover{
+	transform: scale(1.15);
+  }
+  
+  .content{
+	  background:white;
+	  width: 100%;
+	  height: 500px;
+  }
+  
+  .kotakDrag {
+	  width: 100%;
+	  height: 150px;
+	  padding: 10px;
+	  border: 1px solid #000000;
+	  font-weight: bold;
+	}
+  
+  .kotakDrag2 {
+	  width: auto;
+	  height: 150px;
+	  padding: 10px;
+	  border: 1px solid #000000;
+	  font-weight: bold;
+	}
+  
+  .isi{
+	  background-color:white;
+	  height:100%;
+	  width: 36%;
+	  overflow-y:auto;
+	  overflow-x: hidden;
+	  font-family:candara;
+	  font-size:17px;
+	  line-height:1.5;
+	  padding:2%;
+	  text-align: justify ;
+	  color:black;
+	  float:left;
+	  margin:0.5%;
+  }
+  .ptj ol{
+	padding: 30px;
+	align-items: justify;
+  }
+  
+  .isicontent{
+	  height:100%;
+	  overflow-y:auto;
+	  overflow-x: hidden;
+	  font-family:candara;
+	  font-size:17px;
+	  line-height:1.5;
+	  padding:2%;
+	  text-align: justify ;
+	  float:left;
+	  color:black;
+  }
+  

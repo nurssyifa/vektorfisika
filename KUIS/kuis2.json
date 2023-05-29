@@ -1,0 +1,103 @@
+[{
+    "soal0": {
+        "soal":	"Metode yang bukan metode untuk menjumlahkan dua buah vektor atau lebih adalah . . . .</>",
+        "a": "a. Metode jajargenjang",
+        "b": "b. Metode poligon ",
+        "c": "c. Metode analisis",
+        "d": "d. Metode lingkaran ",
+        "e": "e. Metode segi banyak",
+        "benar": "c"
+    }
+},{
+    "soal1": {
+        "soal": "Perhatikan gambar di bawah ini!<br> <img> <br>Dari ke-lima diagram vektor berikut di atas yang menggambarkan operasi vektor d = -c + a + b adalah ....</>",
+        "a": "a. (a)",
+        "b": "b. (b)",
+        "c": "c. (c)",
+        "d": "d. (d)",
+        "e": "e. (e)",
+        "benar": "d"
+    }
+},{
+    "soal2":{
+        "soal": "Perhatikan gambar berikut! <br> <img> <br>Metode yang digunakan untuk menjumlahkan vektor A dan B adalah....</>",
+        "a": "a. Metode jajargenjang",
+        "b": "b. Metode poligon ",
+        "c": "c. Metode analisis",
+        "d": "d. Metode segi banyak ",
+        "e": "e. Metode grafis",
+        "benar": "a"
+    }
+},{
+    "soal3":{
+        "soal": "Perhatikan gambar berikut untuk menjawab soal 4 dan 5!<br><img><br>Diketahui A= 2, B=  3 tentukan besar vektor R adalah. . .</>",
+        "a": "a. √17",
+        "b": "b. √18",
+        "c": "c. √19",
+        "d": "d. √20",
+        "e": "e. √21",
+        "benar": "c"
+    }
+},{
+    "soal4":{
+        "soal": "Gambar manakah dari vektor berikut yang memenuhi persamaan a-b = c. . .</> ",
+        "a": "a. <img>",
+        "b": "b. <img>",
+        "c": "c. <img>",
+        "d": "d. <img>",
+        "e": "e. <img>",
+        "benar": "c"
+    }
+},{
+    "soal5":{
+        "soal": "Tentukan berapakah arah resultan vektor R terhadap B . . .</>",
+        "a": "a. 12,5 &#176;",
+        "b": "b. 14,6 &#176",
+        "c": "c. 12,6 &#176",
+        "d": "d. 14 &#176",
+        "e": "e. 12 &#176",
+        "benar": "b"
+    }
+},{
+    "soal6":{
+        "soal": "Metode yang digunakan untuk menentukan besar resultan vektor dengan cara mengukurnya, disebut dengan metode. . .</>",
+        "a": "a. Metode jajargenjang",
+        "b": "b. Metode poligon ",
+        "c": "c. Metode analisis",
+        "d": "d. Metode segi banyak ",
+        "e": "e. Metode grafis",
+        "benar": "e"
+    }
+},{
+    "soal7":{
+        "soal": "Diketahui dua buah vektor besarnya sama. Jika perbandingan antara selisih dan resultan kedua vektor tersebut sama dengan 1, sudut apit antara kedua vektor tersebut adalah. . .</>",
+        "a": "a. 30 &#176",
+        "b": "b. 45 &#176",
+        "c": "c. 60 &#176",
+        "d": "d. 90 &#176",
+        "e": "e. 120 &#176",
+        "benar": "d"
+    }
+},{
+    "soal8":{
+        "soal": "Melukiskan dan menentukan hasil penjumlahan vektor (resultan) melalui proses penguraian vektor menjadi vektor-vektor komponennya, merupakan pengertian dari. . .</>",
+        "a": "a. Metode jajargenjang",
+        "b": "b. Metode poligon ",
+        "c": "c. Metode analisis",
+        "d": "d. Metode segi banyak ",
+        "e": "e. Metode grafis",
+        "benar": "e"
+    }
+},{
+    "soal9":{
+        "soal": "Dua buah gaya sama besar yaitu 10 N membentuk sudut 120^0 satu sama lain. Selisih kedua vektor tersebut adalah. . .</>",
+        "a": "a. 0 N",
+        "b": "b. 10 N",
+        "c": "c. 10√2 N",
+        "d": "d. 10√3 N",
+        "e": "e. 20 N",
+        "benar": "a"
+    }
+}
+
+]
